@@ -79,9 +79,6 @@
 "uv" = (
 /turf/simulated/floor/planetoid/dirtgrassborder/north,
 /area/planetoid)
-"vI" = (
-/turf/simulated/floor/beach/coastline_b,
-/area/planetoid)
 "vT" = (
 /turf/simulated/wall/indestructible/rock,
 /area/planetoid)
@@ -90,6 +87,13 @@
 /area/planetoid)
 "xq" = (
 /turf/simulated/floor/planetoid/grass/gbcorner/south_east,
+/area/planetoid)
+"xO" = (
+/obj/structure/flora/jungle/alienplant1,
+/obj/item/paper{
+	info = Кустызамедляют,ис50%шансомнедаютпройти(как паутина).Ломаютсябоевымножом(в том числе нож для выживания шахтеров)
+	},
+/turf/simulated/floor/planetoid/grass/grass1,
 /area/planetoid)
 "yz" = (
 /turf/simulated/floor/planetoid/grass/gbcorner/north_west,
@@ -110,17 +114,26 @@
 /turf/simulated/floor/glass/reinforced,
 /area/coldcolony/malta/hallway/service/central)
 "Ak" = (
-/turf/simulated/floor/beach/coastline_t,
+/obj/item/paper{
+	info = Угрядинетсглаживащихтайлов
+	},
+/turf/simulated/floor/planetoid/dirt2,
 /area/planetoid)
 "Av" = (
 /turf/simulated/floor/glass/reinforced,
 /area/coldcolony/malta/hallway/service/central)
+"Aw" = (
+/obj/item/paper{
+	info = Водичкапоглубже,сильнеезамедляет.
+	},
+/turf/simulated/floor/planetoid/dirt,
+/area/planetoid)
 "BN" = (
 /turf/simulated/floor/planetoid/coast/north,
 /area/planetoid)
 "Dc" = (
 /turf/simulated/wall,
-/area/mine/lobby)
+/area/coldcolony/malta/hallway/service/central)
 "GK" = (
 /obj/structure/flora/jungle/plantbot1,
 /turf/simulated/floor/planetoid/grass/grass1,
@@ -136,7 +149,10 @@
 /turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner2/north_west,
 /area/planetoid)
 "Iu" = (
-/turf/simulated/floor/beach/sand,
+/obj/item/paper{
+	info = Ядовитаяводичка.Накидываетуронтоксинами.
+	},
+/turf/simulated/floor/planetoid/dirt,
 /area/planetoid)
 "Je" = (
 /turf/simulated/floor/planetoid/water/pool,
@@ -152,7 +168,7 @@
 /turf/simulated/floor/planetoid/grass/grass2,
 /area/planetoid)
 "KX" = (
-/turf/simulated/floor/beach/water,
+/turf/simulated/floor/planetoid/water/poison,
 /area/planetoid)
 "NC" = (
 /obj/structure/flora/jungle/thickbush,
@@ -172,7 +188,7 @@
 /turf/simulated/floor/planetoid/dirtgrassborder2/east,
 /area/planetoid)
 "QO" = (
-/turf/simulated/floor/beach/coastline,
+/turf/simulated/floor/planetoid/water/ocean,
 /area/planetoid)
 "Rv" = (
 /turf/simulated/floor/planetoid/dirt2,
@@ -203,9 +219,11 @@
 /turf/simulated/floor/planetoid/coast/beachcorner/south_east,
 /area/planetoid)
 "ZM" = (
-/obj/machinery/power/apc/directional/north,
-/turf/simulated/floor/glass/reinforced,
-/area/coldcolony/malta/hallway/service/central)
+/obj/item/paper{
+	info = Простаяводичка,краянезамедляют,полноценныетайлыводызамедляют.Нужнобудетоверлейдлянихсделать,какуводывреакторе.
+	},
+/turf/simulated/floor/planetoid/dirt,
+/area/planetoid)
 
 (1,1,1) = {"
 vT
@@ -743,9 +761,9 @@ dj
 dj
 dj
 dj
-Iu
-Ak
-KX
+dj
+dj
+dj
 dj
 dj
 dj
@@ -825,9 +843,9 @@ dj
 dj
 dj
 dj
-Iu
-Ak
-KX
+dj
+dj
+dj
 dj
 dj
 dj
@@ -907,9 +925,9 @@ dj
 dj
 dj
 dj
-Iu
-Ak
-KX
+dj
+dj
+dj
 dj
 dj
 dj
@@ -989,9 +1007,9 @@ dj
 dj
 dj
 dj
-Iu
-Ak
-KX
+dj
+dj
+dj
 dj
 dj
 dj
@@ -1072,10 +1090,10 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
+KX
+KX
+KX
+KX
 dj
 dj
 dj
@@ -1153,11 +1171,11 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
+Iu
+KX
+KX
+KX
+KX
 dj
 dj
 dj
@@ -1236,10 +1254,10 @@ RG
 dj
 dj
 dj
-QO
-vI
 KX
-dj
+KX
+KX
+KX
 dj
 dj
 dj
@@ -1318,9 +1336,9 @@ GQ
 dj
 dj
 dj
-QO
-vI
-KX
+dj
+dj
+dj
 dj
 dj
 dj
@@ -1401,9 +1419,9 @@ dj
 dj
 dj
 QO
-vI
-KX
-dj
+QO
+QO
+QO
 dj
 dj
 dj
@@ -1481,11 +1499,11 @@ hP
 GQ
 dj
 rI
-dj
+Aw
 QO
-vI
-KX
-dj
+QO
+QO
+QO
 dj
 dj
 dj
@@ -1565,9 +1583,9 @@ dj
 dj
 dj
 QO
-vI
-KX
-dj
+QO
+QO
+QO
 dj
 dj
 dj
@@ -1722,7 +1740,7 @@ dj
 uv
 GR
 hP
-lx
+xO
 hP
 GQ
 dj
@@ -1808,7 +1826,7 @@ hP
 hP
 GQ
 dj
-dj
+ZM
 Ub
 Je
 Je
@@ -2131,7 +2149,7 @@ dj
 dj
 dj
 Rv
-Rv
+Ak
 Rv
 Rv
 Kq
@@ -2782,7 +2800,7 @@ dj
 dj
 dj
 Dc
-ZM
+Av
 Av
 Av
 Av

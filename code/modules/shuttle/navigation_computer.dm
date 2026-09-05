@@ -183,7 +183,6 @@
 		my_port.turf_type = /turf/space
 	if(current_user.client)
 		current_user.client.images -= the_eye.placed_images
-
 	QDEL_LIST(the_eye.placed_images)
 
 	for(var/image/place_spots as anything in the_eye.placement_images)
@@ -263,7 +262,7 @@
 
 	if(space_turfs_only)
 		var/turf_type = hidden_turf_info ? hidden_turf_info[2] : T.type
-		if(!(ispath(turf_type, /turf/space) || ispath(turf_type, /turf/space/openspace)) && !is_mining_level(T.z))
+		if(!(ispath(turf_type, /turf/space) || ispath(turf_type, /turf/space/openspace)) && !is_mining_level(T.z) && !istype(T, /turf/simulated/floor/planetoid))
 			return SHUTTLE_DOCKER_BLOCKED
 
 	if(istype(T.loc.type, /area/syndicate_depot))
@@ -307,7 +306,7 @@
 	return ..()
 
 /mob/camera/aiEye/remote/shuttle_docker/setLoc(turf/destination, force_update = FALSE)
-	if(isspacearea(get_area(destination)) || is_area_shuttle(get_area(destination)) ||  istype(get_area(destination), /area/lavaland) || istype(get_area(destination), /area/ruin))
+	if(isspacearea(get_area(destination)) || is_area_shuttle(get_area(destination)) ||  istype(get_area(destination), /area/lavaland) || istype(get_area(destination), /area/ruin)	|| istype(get_area(destination), /area/planetoid))
 		..()
 		var/obj/machinery/computer/camera_advanced/shuttle_docker/console = origin
 		console.checkLandingSpot()

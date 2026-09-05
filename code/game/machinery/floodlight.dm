@@ -192,7 +192,7 @@
 	icon = 'icons/obj/structures/big_floodlight.dmi'
 	icon_state = "flood_s_off"
 	battery_powered = FALSE
-	light_power = 8
+	light_power = 1
 	light_range = 8
 	on = TRUE
 	anchored = TRUE
