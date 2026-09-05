@@ -17,6 +17,7 @@
 	target_trait = ZTRAIT_RAIN
 
 	probability = 50
+	lightning_chance = 5
 
 	barometer_predictable = TRUE
 
