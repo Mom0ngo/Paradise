@@ -3,9 +3,6 @@
 /obj/effect/landmark/spawner/late,
 /turf/simulated/floor/light/colour_cycle,
 /area/coldcolony/malta/hallway/service/central)
-"cm" = (
-/turf/simulated/floor/beach/sand,
-/area/planetoid)
 "dj" = (
 /turf/simulated/floor/planetoid/dirt,
 /area/planetoid)
@@ -76,14 +73,14 @@
 "tu" = (
 /turf/simulated/floor/light/colour_cycle,
 /area/coldcolony/malta/hallway/service/central)
-"tS" = (
-/turf/simulated/floor/beach/coastline_t,
-/area/planetoid)
 "ua" = (
 /turf/simulated/floor/planetoid/coast/south,
 /area/planetoid)
 "uv" = (
 /turf/simulated/floor/planetoid/dirtgrassborder/north,
+/area/planetoid)
+"vI" = (
+/turf/simulated/floor/beach/coastline_b,
 /area/planetoid)
 "vT" = (
 /turf/simulated/wall/indestructible/rock,
@@ -112,6 +109,9 @@
 /obj/effect/landmark/spawner/late/crew,
 /turf/simulated/floor/glass/reinforced,
 /area/coldcolony/malta/hallway/service/central)
+"Ak" = (
+/turf/simulated/floor/beach/coastline_t,
+/area/planetoid)
 "Av" = (
 /turf/simulated/floor/glass/reinforced,
 /area/coldcolony/malta/hallway/service/central)
@@ -135,6 +135,9 @@
 "Hw" = (
 /turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner2/north_west,
 /area/planetoid)
+"Iu" = (
+/turf/simulated/floor/beach/sand,
+/area/planetoid)
 "Je" = (
 /turf/simulated/floor/planetoid/water/pool,
 /area/planetoid)
@@ -148,7 +151,7 @@
 /obj/structure/flora/jungle/alienplant1,
 /turf/simulated/floor/planetoid/grass/grass2,
 /area/planetoid)
-"Lo" = (
+"KX" = (
 /turf/simulated/floor/beach/water,
 /area/planetoid)
 "NC" = (
@@ -169,8 +172,7 @@
 /turf/simulated/floor/planetoid/dirtgrassborder2/east,
 /area/planetoid)
 "QO" = (
-/mob/living/simple_animal/hostile/tree/jungle,
-/turf/simulated/floor/planetoid/grass/grass1,
+/turf/simulated/floor/beach/coastline,
 /area/planetoid)
 "Rv" = (
 /turf/simulated/floor/planetoid/dirt2,
@@ -193,18 +195,12 @@
 "Vv" = (
 /turf/simulated/floor/planetoid/coast/beachcorner2/north_east,
 /area/planetoid)
-"WX" = (
-/turf/simulated/floor/beach/coastline_b,
-/area/planetoid)
 "Yy" = (
 /obj/structure/flora/jungle/planttop1,
 /turf/simulated/floor/planetoid/grass/grass1,
 /area/planetoid)
 "YW" = (
 /turf/simulated/floor/planetoid/coast/beachcorner/south_east,
-/area/planetoid)
-"Zy" = (
-/turf/simulated/floor/beach/coastline,
 /area/planetoid)
 "ZM" = (
 /obj/machinery/power/apc/directional/north,
@@ -747,9 +743,9 @@ dj
 dj
 dj
 dj
-cm
-tS
-Lo
+Iu
+Ak
+KX
 dj
 dj
 dj
@@ -829,9 +825,9 @@ dj
 dj
 dj
 dj
-cm
-tS
-Lo
+Iu
+Ak
+KX
 dj
 dj
 dj
@@ -911,9 +907,9 @@ dj
 dj
 dj
 dj
-cm
-tS
-Lo
+Iu
+Ak
+KX
 dj
 dj
 dj
@@ -993,9 +989,9 @@ dj
 dj
 dj
 dj
-cm
-tS
-Lo
+Iu
+Ak
+KX
 dj
 dj
 dj
@@ -1240,9 +1236,9 @@ RG
 dj
 dj
 dj
-Zy
-WX
-Lo
+QO
+vI
+KX
 dj
 dj
 dj
@@ -1322,9 +1318,9 @@ GQ
 dj
 dj
 dj
-Zy
-WX
-Lo
+QO
+vI
+KX
 dj
 dj
 dj
@@ -1404,9 +1400,9 @@ GQ
 dj
 dj
 dj
-Zy
-WX
-Lo
+QO
+vI
+KX
 dj
 dj
 dj
@@ -1486,9 +1482,9 @@ GQ
 dj
 rI
 dj
-Zy
-WX
-Lo
+QO
+vI
+KX
 dj
 dj
 dj
@@ -1568,9 +1564,9 @@ GQ
 dj
 dj
 dj
-Zy
-WX
-Lo
+QO
+vI
+KX
 dj
 dj
 dj
@@ -1809,7 +1805,7 @@ uv
 GR
 hP
 hP
-QO
+hP
 GQ
 dj
 dj
@@ -2387,7 +2383,7 @@ Rv
 pd
 SA
 qQ
-QO
+hP
 NX
 Hw
 dj

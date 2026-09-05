@@ -58,8 +58,6 @@
 	var/weather_cooldown_upper = 10 MINUTES
 	var/weather_cooldown_lower = 5 MINUTES
 
-	var/lightning_chance = 0
-
 /datum/weather/New(z_levels)
 	..()
 	impacted_z_levels = z_levels
@@ -224,14 +222,3 @@
 		gen_overlay_cache += new_weather_overlay
 
 	return gen_overlay_cache
-
-// remember, this happens every five seconds or so
-/datum/weather/proc/handle_weather_process()
-	if(lightning_chance && prob(lightning_chance))
-		sound_to_playing_players_on_station_level(pick('sound/ambience/planetoid/thunderclap1.ogg', 'sound/ambience/planetoid/thunderclap2.ogg'))
-		for(var/mob/mob as anything in GLOB.mob_list)
-			if(mob.hud_used)
-				var/atom/movable/screen/plane_master/lighting/exterior/exterior_lighting = mob.hud_used.plane_masters["[EXTERIOR_LIGHTING_PLANE]"]
-				if(exterior_lighting)
-					exterior_lighting.alpha = 0
-					animate(exterior_lighting, 1.5 SECONDS, alpha = min(GLOB.minimum_exterior_lighting_alpha, mob.lighting_alpha))

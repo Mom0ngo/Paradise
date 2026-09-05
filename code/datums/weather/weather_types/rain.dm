@@ -20,8 +20,6 @@
 
 	barometer_predictable = TRUE
 
-	lightning_chance = 80
-
 	var/list/weak_sounds = list()
 	var/list/strong_sounds = list()
 	var/wetness_counter = 0

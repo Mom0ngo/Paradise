@@ -238,35 +238,3 @@ INITIALIZE_IMMEDIATE(/atom/movable/screen/plane_master)
 
 		return
 	show_to(relevant)
-
-/*!
- * This system works by exploiting BYONDs color matrix filter to use layers to handle emissive blockers.
- *
- * Emissive overlays are pasted with an atom color that converts them to be entirely some specific color.
- * Emissive blockers are pasted with an atom color that converts them to be entirely some different color.
- * Emissive overlays and emissive blockers are put onto the same plane.
- * The layers for the emissive overlays and emissive blockers cause them to mask eachother similar to normal BYOND objects.
- * A color matrix filter is applied to the emissive plane to mask out anything that isn't whatever the emissive color is.
- * This is then used to alpha mask the lighting plane.
- */
-
-///Contains all lighting objects
-/atom/movable/screen/plane_master/lighting
-	name = "lighting plane master"
-	plane = LIGHTING_PLANE
-	blend_mode_override = BLEND_MULTIPLY
-	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
-
-/atom/movable/screen/plane_master/lighting/backdrop(mob/mymob)
-	. = ..()
-	mymob.overlay_fullscreen("lighting_backdrop", /atom/movable/screen/fullscreen/lighting_backdrop/backplane)
-	mymob.overlay_fullscreen("lighting_backdrop_lit_secondary", /atom/movable/screen/fullscreen/lighting_backdrop/lit_secondary)
-
-/atom/movable/screen/plane_master/lighting/Initialize()
-	. = ..()
-	add_filter("emissives", 1, alpha_mask_filter(render_source = EMISSIVE_RENDER_TARGET, flags = MASK_INVERSE))
-	add_filter("object_lighting", 2, alpha_mask_filter(render_source = O_LIGHTING_VISUAL_RENDER_TARGET, flags = MASK_INVERSE))
-
-/atom/movable/screen/plane_master/lighting/exterior
-	name = "exterior lighting plane master"
-	plane = EXTERIOR_LIGHTING_PLANE
