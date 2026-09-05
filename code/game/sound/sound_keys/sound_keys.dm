@@ -755,3 +755,11 @@
 		'sound/machines/sm/accent/delam/32.ogg',
 		'sound/machines/sm/accent/delam/33.ogg',
 	)
+
+/datum/sound_effect/vegetation_walk
+	key = SFX_VEGETATION_WALK
+	file_paths = list(
+		'sound/effects/vegetation_walk_0.ogg',
+		'sound/effects/vegetation_walk_1.ogg',
+		'sound/effects/vegetation_walk_2.ogg',
+	)

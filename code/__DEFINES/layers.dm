@@ -56,6 +56,8 @@
 /// Render plate used by overlay lighting to mask turf lights
 #define RENDER_PLANE_TURF_LIGHTING 12
 
+#define EXTERIOR_LIGHTING_PLANE 14
+
 #define EMISSIVE_PLANE 13
 /// This plane masks out lighting to create an "emissive" effect, ie for glowing lights in otherwise dark areas.
 #define RENDER_PLANE_EMISSIVE 14
@@ -321,6 +323,8 @@
 #define ABOVE_LIGHTING_LAYER 17
 #define BYOND_LIGHTING_LAYER 19
 #define CAMERA_STATIC_LAYER 20
+
+#define O_LIGHTING_VISUAL_RENDER_TARGET "O_LIGHT_VISUAL_PLANE"
 
 //HUD layer defines
 

@@ -752,3 +752,86 @@
 		INSTRUMENTAL = "остановленным стерженем",
 		PREPOSITIONAL = "остановленном стержене",
 	)
+
+// Planetoid
+/obj/structure/flora/jungle
+	name = "jungle foliage"
+	icon = 'icons/turf/ground_map.dmi'
+	density = FALSE
+	anchored = TRUE
+	var/indestructable = FALSE
+	var/stump = 0
+
+/obj/structure/flora/jungle/shrub
+	desc = "Заросли довольно густые; чтобы их расчистить, понадобятся острый инструмент и немалая решимость."
+	icon_state = "grass4"
+	layer = ABOVE_MOB_LAYER
+
+/obj/structure/flora/jungle/shrub/CanAllowThrough(atom/movable/mover, border_dir)
+	. = ..()
+	playsound(src.loc, SFX_VEGETATION_WALK, 25, 1)
+	if(isliving(mover))
+		var/mob/living/living_mover = mover
+		living_mover.Slowed(1 SECONDS)
+
+/obj/structure/flora/jungle/plantbot1
+	name = "strange tree"
+	desc = "Какое-то причудливое инопланетное дерево. Из него сочится болезненно-желтый сок."
+	icon_state = "plantbot1"
+
+/obj/structure/flora/jungle/cart_wreck
+	name = "old janicart"
+	desc = "Похоже, чистить он уже особо не будет."
+	icon_state = "cart_wreck"
+	density = TRUE
+
+/obj/structure/flora/jungle/alienplant1
+	name = "strange tree"
+	desc = "Какое-то причудливое инопланетное дерево. Из него сочится болезненно-желтый сок."
+	icon_state = "alienplant1"
+	light_range = 2
+
+/obj/structure/flora/jungle/planttop1
+	name = "strange tree"
+	desc = "Какое-то причудливое инопланетное дерево. Из него сочится болезненно-желтый сок."
+	icon_state = "planttop1"
+
+/obj/structure/flora/jungle/thickbush
+	name = "dense vegetation"
+	desc = "Заросли довольно густые; чтобы их расчистить, понадобятся острый инструмент и немалая решимость."
+	icon = 'icons/obj/flora/jungleplants.dmi'
+	icon_state = "bush_1"
+
+/obj/structure/flora/jungle/thickbush/New()
+	..()
+	if(prob(75))
+		opacity = TRUE
+	setDir(pick(NORTH,EAST,SOUTH,WEST))
+
+/obj/structure/flora/jungle/thickbush/CanAllowThrough(atom/movable/mover, border_dir)
+	. = ..()
+	if(isliving(mover) && prob(50))
+		to_chat(mover, span_danger("Вы на мгновение застреваете в [DECLENT_RU_CAP(src, PREPOSITIONAL)]"))
+		return FALSE
+	if(isliving(mover))
+		var/mob/living/living_mover = mover
+		living_mover.Slowed(2 SECONDS)
+	playsound(loc, SFX_VEGETATION_WALK, 25, TRUE)
+
+/obj/structure/flora/jungle/thickbush/attackby(obj/item/I, mob/user, params)
+	//hatchets and shiet can clear away undergrowth
+	if(I && (I.sharp) && !stump)
+		var/damage = rand(5, 10)
+		if(istype(I, /obj/item/kitchen/knife/combat))
+			damage = rand(15, 20)
+		if(indestructable)
+			to_chat(user, span_danger("Вы отчаянно прорубаетесь сквозь заросли, но здесь они слишком густые."))
+		else
+			user.visible_message(span_danger("[user] яростно бьет [DECLENT_RU_CAP(src, ACCUSATIVE)] с помощью [DECLENT_RU_CAP(I, GENITIVE)]."), span_danger("Вы беспорядочно колотите по [DECLENT_RU_CAP(src, DATIVE)] с помощью [DECLENT_RU_CAP(I, GENITIVE)]."))
+			playsound(src.loc, 'sound/effects/vegetation_hit.ogg', 25, 1)
+			max_integrity -= damage
+			if(max_integrity < 0)
+				to_chat(user, span_notice("Вы убираете [DECLENT_RU_CAP(src, ACCUSATIVE)] ."))
+				qdel(src)
+	else
+		return ..()
