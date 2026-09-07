@@ -512,7 +512,7 @@
 	density = TRUE
 	anchored = TRUE
 	layer = ABOVE_OBJ_LAYER
-	var/indestructable = FALSE
+	var/indestructible = FALSE
 	var/stump = 0
 
 /obj/structure/bush/Initialize(mapload)
@@ -537,7 +537,7 @@
 
 	if(istype(I, /obj/item/hatchet))	//hatchets can clear away undergrowth
 		add_fingerprint(user)
-		if(indestructable)
+		if(indestructible)
 			//this bush marks the edge of the map, you can't destroy it
 			to_chat(user, span_warning("You flail away at the undergrowth, but it's too thick here."))
 			return ATTACK_CHAIN_BLOCKED_ALL
@@ -759,8 +759,20 @@
 	icon = 'icons/turf/ground_map.dmi'
 	density = FALSE
 	anchored = TRUE
-	var/indestructable = FALSE
-	var/stump = 0
+	var/indestructible = FALSE
+
+/obj/structure/flora/jungle/proceed_attack_results(obj/item/item, mob/user, list/modifiers)
+	. = ATTACK_CHAIN_PROCEED_SUCCESS
+	playsound(src.loc, 'sound/effects/vegetation_hit.ogg', 25, TRUE)
+	if(indestructible || !item.sharp)
+		return .
+	var/damage = rand(10, 15)
+	if(istype(item, /obj/item/kitchen/knife/combat) || istype(item, /obj/item/hatchet))
+		damage = rand(20, 25)
+	take_damage(damage, item.damtype, MELEE, FALSE, get_dir(user, src), item.armour_penetration)
+	if(QDELETED(src))
+		return ATTACK_CHAIN_BLOCKED_ALL
+	return .
 
 /obj/structure/flora/jungle/shrub
 	desc = "Заросли довольно густые; чтобы их расчистить, понадобятся острый инструмент и немалая решимость."
@@ -769,7 +781,7 @@
 
 /obj/structure/flora/jungle/shrub/CanAllowThrough(atom/movable/mover, border_dir)
 	. = ..()
-	playsound(src.loc, SFX_VEGETATION_WALK, 25, 1)
+	playsound(src.loc, SFX_VEGETATION_WALK, 25, TRUE)
 	if(isliving(mover))
 		var/mob/living/living_mover = mover
 		living_mover.Slowed(1 SECONDS)
@@ -806,7 +818,7 @@
 	..()
 	if(prob(75))
 		opacity = TRUE
-	setDir(pick(NORTH,EAST,SOUTH,WEST))
+	setDir(pick(NORTH, EAST, SOUTH, WEST))
 
 /obj/structure/flora/jungle/thickbush/CanAllowThrough(atom/movable/mover, border_dir)
 	. = ..()
@@ -818,20 +830,3 @@
 		living_mover.Slowed(2 SECONDS)
 	playsound(loc, SFX_VEGETATION_WALK, 25, TRUE)
 
-/obj/structure/flora/jungle/thickbush/attackby(obj/item/I, mob/user, params)
-	//hatchets and shiet can clear away undergrowth
-	if(I && (I.sharp) && !stump)
-		var/damage = rand(5, 10)
-		if(istype(I, /obj/item/kitchen/knife/combat))
-			damage = rand(15, 20)
-		if(indestructable)
-			to_chat(user, span_danger("Вы отчаянно прорубаетесь сквозь заросли, но здесь они слишком густые."))
-		else
-			user.visible_message(span_danger("[user] яростно бьет [DECLENT_RU_CAP(src, ACCUSATIVE)] с помощью [DECLENT_RU_CAP(I, GENITIVE)]."), span_danger("Вы беспорядочно колотите по [DECLENT_RU_CAP(src, DATIVE)] с помощью [DECLENT_RU_CAP(I, GENITIVE)]."))
-			playsound(src.loc, 'sound/effects/vegetation_hit.ogg', 25, 1)
-			max_integrity -= damage
-			if(max_integrity < 0)
-				to_chat(user, span_notice("Вы убираете [DECLENT_RU_CAP(src, ACCUSATIVE)] ."))
-				qdel(src)
-	else
-		return ..()

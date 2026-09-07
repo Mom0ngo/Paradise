@@ -3,240 +3,352 @@
 /obj/effect/landmark/spawner/late,
 /turf/simulated/floor/light/colour_cycle,
 /area/coldcolony/malta/hallway/service/central)
-"dj" = (
-/turf/simulated/floor/planetoid/dirt,
+"ay" = (
+/turf/simulated/floor/planetoid/grass/sandcorner2/west,
 /area/planetoid)
-"ef" = (
-/turf/simulated/floor/planetoid/grass/grassbeach,
+"bg" = (
+/obj/structure/railing/wooden{
+	dir = 4
+	},
+/turf/simulated/floor/water/hot_spring,
+/area/planetoid)
+"cz" = (
+/obj/structure/flora/jungle/cart_wreck,
+/turf/simulated/floor/planetoid/grass/grass1,
+/area/planetoid)
+"dj" = (
+/turf/simulated/floor/planetoid/desert,
+/area/planetoid)
+"dC" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandedge/south,
+/area/planetoid)
+"eI" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandcorner2/east,
+/area/planetoid)
+"eM" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/simulated/floor/planetoid/desert,
+/area/planetoid)
+"eR" = (
+/obj/structure/flora/junglebush/large,
+/turf/simulated/floor/planetoid/grass/sandcorner/west,
+/area/planetoid)
+"fe" = (
+/obj/structure/flora/corn_stalk/alt_1,
+/turf/simulated/floor/planetoid/grass/scorched2,
+/area/planetoid)
+"fk" = (
+/turf/simulated/floor/planetoid/desert/beachedge/west,
+/area/planetoid)
+"fp" = (
+/turf/simulated/floor/planetoid/grass/sandcorner/south,
 /area/planetoid)
 "gU" = (
 /obj/machinery/door/airlock/public,
 /turf/simulated/floor/glass,
 /area/coldcolony/malta/hallway/service/central)
-"hP" = (
-/turf/simulated/floor/planetoid/grass/grass1,
+"gW" = (
+/turf/simulated/floor/planetoid/grass/scorched3/sandedge/north,
 /area/planetoid)
-"kD" = (
-/turf/simulated/floor/planetoid/grass/grass2,
+"hx" = (
+/turf/simulated/floor/planetoid/grass/sandcorner/east,
 /area/planetoid)
-"lm" = (
+"hz" = (
+/turf/simulated/floor/planetoid/grass/dirtedge/south,
+/area/planetoid)
+"hA" = (
+/turf/simulated/floor/planetoid/grass/beachedge/west,
+/area/planetoid)
+"hZ" = (
+/turf/simulated/floor/planetoid/grass/dirtcorner2/west,
+/area/planetoid)
+"ip" = (
+/turf/simulated/floor/planetoid/grass/sandcorner/north,
+/area/planetoid)
+"jA" = (
+/turf/simulated/floor/planetoid/grass/sandedge/south,
+/area/planetoid)
+"jS" = (
+/turf/simulated/floor/planetoid/grass/scorched2/scorched_alt,
+/area/planetoid)
+"kg" = (
+/obj/structure/railing/wooden/cornerl,
+/obj/structure/railing/wooden{
+	dir = 4
+	},
+/turf/simulated/floor/water/hot_spring,
+/area/planetoid)
+"ko" = (
+/turf/simulated/floor/water/planetoid,
+/area/planetoid)
+"kp" = (
+/turf/simulated/floor/planetoid/grass/dirtcorner/south,
+/area/planetoid)
+"lo" = (
+/turf/simulated/floor/planetoid/grass/sandedge/east,
+/area/planetoid)
+"lM" = (
 /obj/structure/flora/jungle/thickbush,
+/turf/simulated/floor/planetoid/grass/beachcorner/north,
+/area/planetoid)
+"mC" = (
+/turf/simulated/floor/planetoid/grass/scorched3,
+/area/planetoid)
+"ns" = (
+/turf/simulated/floor/planetoid/grass/sandcorner/west,
+/area/planetoid)
+"nK" = (
+/turf/simulated/floor/planetoid/grass/dirtcorner2/south,
+/area/planetoid)
+"pg" = (
+/obj/structure/flora/jungle/plantbot1,
 /turf/simulated/floor/planetoid/grass/grass2,
 /area/planetoid)
-"ls" = (
-/obj/structure/flora/tree/jungle,
-/obj/structure/flora/jungle/shrub,
-/turf/simulated/floor/planetoid/grass/grass2,
-/area/planetoid)
-"lx" = (
-/obj/structure/flora/jungle/alienplant1,
-/turf/simulated/floor/planetoid/grass/grass1,
-/area/planetoid)
-"lV" = (
-/turf/simulated/floor/planetoid/coast/beachcorner,
-/area/planetoid)
-"lW" = (
-/obj/effect/overlay/palmtree_r,
-/turf/simulated/floor/planetoid/coast/west,
-/area/planetoid)
-"mv" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/east,
-/area/planetoid)
-"mQ" = (
-/obj/effect/overlay/palmtree_l,
-/turf/simulated/floor/planetoid/coast/south,
-/area/planetoid)
-"oR" = (
-/turf/simulated/floor/planetoid/coast/east,
-/area/planetoid)
-"pd" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner2/south_west,
-/area/planetoid)
-"qc" = (
-/obj/effect/overlay/palmtree_r,
-/turf/simulated/floor/planetoid/coast/beachcorner/south_west,
-/area/planetoid)
-"qQ" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner/south_west,
+"qh" = (
+/turf/simulated/floor/planetoid/grass/dirtcorner2/east,
 /area/planetoid)
 "rI" = (
 /obj/machinery/floodlight/colony,
-/turf/simulated/floor/planetoid/dirt,
+/turf/simulated/floor/planetoid/desert,
 /area/planetoid)
-"sp" = (
-/obj/structure/flora/jungle/cart_wreck,
-/turf/simulated/floor/planetoid/grass/grass1,
+"rY" = (
+/turf/simulated/floor/planetoid/grass/scorched1/scorched_alt,
+/area/planetoid)
+"sU" = (
+/turf/simulated/floor/planetoid/grass/scorched3/sandcorner2/west,
 /area/planetoid)
 "tb" = (
-/turf/simulated/floor/planetoid/grass/gbcorner/south_west,
+/obj/structure/flora/jungle/shrub,
+/turf/simulated/floor/planetoid/grass/grass3,
+/area/planetoid)
+"tp" = (
+/obj/structure/flora/firebush,
+/turf/simulated/floor/planetoid/dirt,
+/area/planetoid/caves)
+"tt" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandcorner2/north,
 /area/planetoid)
 "tu" = (
 /turf/simulated/floor/light/colour_cycle,
 /area/coldcolony/malta/hallway/service/central)
-"ua" = (
-/turf/simulated/floor/planetoid/coast/south,
+"tU" = (
+/turf/simulated/floor/planetoid/desert/beachcorner/west,
+/area/planetoid)
+"tW" = (
+/turf/simulated/floor/planetoid/grass/scorched3/sandcorner/south,
 /area/planetoid)
 "ug" = (
 /turf/simulated/floor/planetoid/dirt,
 /area/planetoid/caves)
-"uv" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/north,
+"uF" = (
+/turf/simulated/floor/planetoid/grass/scorched3/single,
 /area/planetoid)
 "vv" = (
 /obj/structure/mortar,
-/turf/simulated/floor/planetoid/dirt,
+/turf/simulated/floor/planetoid/desert,
+/area/planetoid)
+"vx" = (
+/turf/simulated/floor/planetoid/grass/sandcorner2/south,
+/area/planetoid)
+"vR" = (
+/turf/simulated/floor/planetoid/grass/grass1,
 /area/planetoid)
 "vT" = (
 /turf/simulated/wall/indestructible/rock,
 /area/planetoid)
 "wG" = (
-/turf/simulated/floor/planetoid/grass/grassbeach/south,
-/area/planetoid)
-"xq" = (
-/turf/simulated/floor/planetoid/grass/gbcorner/south_east,
+/obj/machinery/floodlight/colony,
+/turf/simulated/floor/planetoid/grass/scorched1,
 /area/planetoid)
 "xO" = (
-/obj/structure/flora/jungle/alienplant1,
-/obj/item/paper{
-	info = Кустызамедляют,ис50%шансомнедаютпройти(как паутина).Ломаютсябоевымножом(в том числе нож для выживания шахтеров)
+/turf/simulated/floor/water/deep_beach,
+/area/planetoid)
+"xX" = (
+/obj/structure/flora/ausbushes/leafybush,
+/turf/simulated/floor/planetoid/grass/dirtcorner/west,
+/area/planetoid)
+"ym" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandcorner/east,
+/area/planetoid)
+"yV" = (
+/obj/structure/railing/wooden{
+	dir = 8
 	},
-/turf/simulated/floor/planetoid/grass/grass1,
-/area/planetoid)
-"yz" = (
-/turf/simulated/floor/planetoid/grass/gbcorner/north_west,
-/area/planetoid)
-"yH" = (
-/obj/effect/overlay/palmtree_l,
-/turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner2/north_east,
-/area/planetoid)
-"yP" = (
-/turf/simulated/floor/planetoid/coast/beachcorner/north_east,
-/area/planetoid)
-"zr" = (
-/obj/structure/flora/tree/jungle/small,
-/turf/simulated/floor/planetoid/grass/grass1,
+/turf/simulated/floor/water/hot_spring,
 /area/planetoid)
 "Aj" = (
 /obj/effect/landmark/spawner/late/crew,
 /turf/simulated/floor/glass/reinforced,
 /area/coldcolony/malta/hallway/service/central)
-"Ak" = (
-/obj/item/paper{
-	info = Угрядинетсглаживащихтайлов
-	},
-/turf/simulated/floor/planetoid/dirt2,
-/area/planetoid)
 "Av" = (
 /turf/simulated/floor/glass/reinforced,
 /area/coldcolony/malta/hallway/service/central)
-"Aw" = (
-/obj/item/paper{
-	info = Водичкапоглубже,сильнеезамедляет.
-	},
-/turf/simulated/floor/planetoid/dirt,
+"AG" = (
+/turf/simulated/floor/planetoid/grass/scorched2/single,
 /area/planetoid)
-"BN" = (
-/turf/simulated/floor/planetoid/coast/north,
+"AP" = (
+/turf/simulated/floor/planetoid/grass/dirtedge/east,
+/area/planetoid)
+"Bi" = (
+/turf/simulated/floor/planetoid/grass/dirtedge/north,
+/area/planetoid)
+"Cz" = (
+/turf/simulated/floor/planetoid/grass/scorched2,
+/area/planetoid)
+"CS" = (
+/turf/simulated/floor/planetoid/grass/scorched1,
 /area/planetoid)
 "Dc" = (
 /turf/simulated/wall,
 /area/coldcolony/malta/hallway/service/central)
-"Fr" = (
-/obj/structure/closet/crate/secure/mortar/mortar_shells/frag,
-/turf/simulated/floor/planetoid/dirt,
+"Dz" = (
+/turf/simulated/floor/planetoid/grass/scorched3/sandedge/east,
 /area/planetoid)
-"GK" = (
-/obj/structure/flora/jungle/plantbot1,
+"DO" = (
+/obj/machinery/floodlight/colony,
+/turf/simulated/floor/planetoid/grass/sandcorner/south,
+/area/planetoid)
+"EJ" = (
+/obj/structure/flora/rock/jungle,
+/turf/simulated/floor/planetoid/grass/sandedge/north,
+/area/planetoid)
+"ER" = (
+/turf/simulated/floor/planetoid/grass/dirtcorner/east,
+/area/planetoid)
+"Fh" = (
+/turf/simulated/floor/planetoid/desert/beachcorner2/west,
+/area/planetoid)
+"FI" = (
+/turf/simulated/floor/planetoid/grass/sandcorner2/east,
+/area/planetoid)
+"Gc" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandcorner/north,
+/area/planetoid)
+"Gx" = (
+/turf/simulated/floor/planetoid/grass/dirtcorner2/north,
+/area/planetoid)
+"HC" = (
+/turf/simulated/floor/planetoid/grass/scorched1/single,
+/area/planetoid)
+"HK" = (
+/obj/structure/flora/ausbushes/grassybush,
 /turf/simulated/floor/planetoid/grass/grass1,
 /area/planetoid)
-"GQ" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/south,
+"HM" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandedge/north,
 /area/planetoid)
-"GR" = (
-/obj/structure/flora/jungle/shrub,
+"IQ" = (
+/turf/simulated/floor/planetoid/desert/beachedge/south,
+/area/planetoid)
+"IS" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandcorner/south,
+/area/planetoid)
+"Jh" = (
+/turf/simulated/floor/planetoid/grass/beachedge/east,
+/area/planetoid)
+"Ju" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandcorner2/south,
+/area/planetoid)
+"Jv" = (
+/turf/simulated/floor/planetoid/grass/scorched3/sandcorner2/south,
+/area/planetoid)
+"JL" = (
+/obj/structure/railing/wooden/cornerr,
+/turf/simulated/floor/planetoid/desert/beachedge/south,
+/area/planetoid)
+"LI" = (
+/obj/structure/flora/rock/pile/icy,
 /turf/simulated/floor/planetoid/grass/grass1,
 /area/planetoid)
-"Hw" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner2/north_west,
+"LK" = (
+/turf/simulated/floor/planetoid/desert/beachedge/east,
 /area/planetoid)
-"Iu" = (
-/obj/item/paper{
-	info = Ядовитаяводичка.Накидываетуронтоксинами.
-	},
-/turf/simulated/floor/planetoid/dirt,
-/area/planetoid)
-"Je" = (
-/turf/simulated/floor/planetoid/water/pool,
-/area/planetoid)
-"Kq" = (
-/turf/simulated/floor/planetoid/dirtgrassborder2/north,
-/area/planetoid)
-"Kv" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner2/south_east,
-/area/planetoid)
-"Kz" = (
+"LL" = (
 /obj/structure/flora/jungle/alienplant1,
-/turf/simulated/floor/planetoid/grass/grass2,
-/area/planetoid)
-"KX" = (
-/turf/simulated/floor/planetoid/water/poison,
-/area/planetoid)
-"NC" = (
-/obj/structure/flora/jungle/thickbush,
 /turf/simulated/floor/planetoid/grass/grass1,
 /area/planetoid)
-"NO" = (
-/obj/effect/overlay/palmtree_l,
-/turf/simulated/floor/planetoid/coast/east,
+"LU" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandedge/west,
 /area/planetoid)
-"NX" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner/north_west,
+"LW" = (
+/turf/simulated/floor/planetoid/grass/dirtedge/west,
 /area/planetoid)
-"OE" = (
-/turf/simulated/floor/planetoid/coast/west,
+"Me" = (
+/turf/simulated/floor/planetoid/grass/sandcorner2/north,
 /area/planetoid)
-"QE" = (
-/turf/simulated/floor/planetoid/dirtgrassborder2/east,
+"MA" = (
+/turf/simulated/floor/planetoid/desert/beachedge/north,
 /area/planetoid)
-"QO" = (
-/turf/simulated/floor/planetoid/water/ocean,
+"MP" = (
+/turf/simulated/floor/planetoid/desert/beachcorner/north,
 /area/planetoid)
-"Rv" = (
-/turf/simulated/floor/planetoid/dirt2,
+"Na" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/simulated/floor/planetoid/desert/beachcorner/south,
 /area/planetoid)
-"RG" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner2/north_east,
+"Rq" = (
+/turf/simulated/floor/planetoid/desert/beachcorner/south,
 /area/planetoid)
-"RY" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/grassdirt_corner/north_east,
+"Sg" = (
+/turf/simulated/floor/planetoid/grass/dirtcorner/north,
 /area/planetoid)
-"SA" = (
-/turf/simulated/floor/planetoid/dirtgrassborder/west,
+"Sx" = (
+/turf/simulated/floor/water/hot_spring,
 /area/planetoid)
-"Ub" = (
-/turf/simulated/floor/planetoid/coast,
+"SR" = (
+/turf/simulated/floor/planetoid/grass/beachedge/north,
 /area/planetoid)
-"Vb" = (
-/turf/simulated/floor/planetoid/grass/gbcorner/north_east,
+"TC" = (
+/turf/simulated/wall/indestructible/jungle,
+/area/planetoid)
+"TE" = (
+/obj/structure/railing/wooden/cornerl,
+/turf/simulated/floor/planetoid/desert/beachedge/south,
+/area/planetoid)
+"UR" = (
+/obj/structure/flora/jungle/planttop1,
+/turf/simulated/floor/planetoid/grass/beachcorner/east,
+/area/planetoid)
+"Vq" = (
+/turf/simulated/floor/planetoid/grass/scorched2/sandedge/east,
 /area/planetoid)
 "Vv" = (
-/turf/simulated/floor/planetoid/coast/beachcorner2/north_east,
+/turf/simulated/floor/planetoid/grass/beachcorner/south,
+/area/planetoid)
+"Wm" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/simulated/floor/planetoid/grass/scorched2,
 /area/planetoid)
 "WJ" = (
 /turf/simulated/wall/indestructible/rock,
 /area/planetoid/caves)
-"Yy" = (
-/obj/structure/flora/jungle/planttop1,
-/turf/simulated/floor/planetoid/grass/grass1,
+"WU" = (
+/turf/simulated/floor/planetoid/grass/beachedge/south,
 /area/planetoid)
-"YW" = (
-/turf/simulated/floor/planetoid/coast/beachcorner/south_east,
+"XJ" = (
+/turf/simulated/floor/planetoid/desert/desert_dug,
 /area/planetoid)
-"ZM" = (
-/obj/item/paper{
-	info = Простаяводичка,краянезамедляют,полноценныетайлыводызамедляют.Нужнобудетоверлейдлянихсделать,какуводывреакторе.
+"XM" = (
+/turf/simulated/floor/planetoid/grass/sandedge/north,
+/area/planetoid)
+"Yu" = (
+/turf/simulated/floor/planetoid/grass/sandedge/west,
+/area/planetoid)
+"YJ" = (
+/turf/simulated/floor/planetoid/grass/beachcorner/west,
+/area/planetoid)
+"YX" = (
+/turf/simulated/floor/planetoid/desert/beachcorner/east,
+/area/planetoid)
+"Zi" = (
+/turf/simulated/floor/planetoid/grass/sandsingle,
+/area/planetoid)
+"ZI" = (
+/obj/structure/railing/wooden/cornerr,
+/obj/structure/railing/wooden{
+	dir = 8
 	},
-/turf/simulated/floor/planetoid/dirt,
+/turf/simulated/floor/water/hot_spring,
 /area/planetoid)
 
 (1,1,1) = {"
@@ -355,11 +467,11 @@ ug
 ug
 WJ
 WJ
-dj
-dj
-dj
-dj
-dj
+TC
+TC
+TC
+TC
+jA
 dj
 dj
 dj
@@ -438,10 +550,10 @@ ug
 ug
 WJ
 WJ
-dj
-dj
-dj
-dj
+TC
+TC
+fp
+vx
 dj
 dj
 dj
@@ -516,13 +628,13 @@ ug
 WJ
 ug
 ug
-ug
+tp
 ug
 ug
 WJ
-dj
-dj
-dj
+TC
+fp
+vx
 dj
 dj
 dj
@@ -602,14 +714,14 @@ ug
 ug
 ug
 WJ
+TC
+jA
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
+tt
+LU
+eI
 dj
 dj
 dj
@@ -684,14 +796,14 @@ ug
 ug
 ug
 WJ
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+TC
+jA
+tt
+LU
+LU
+ym
+Cz
+dC
 dj
 dj
 dj
@@ -766,6 +878,14 @@ ug
 ug
 WJ
 WJ
+TC
+jA
+HM
+fe
+rY
+jS
+IS
+Ju
 dj
 dj
 dj
@@ -778,15 +898,7 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+rI
 dj
 dj
 dj
@@ -848,14 +960,14 @@ ug
 WJ
 WJ
 WJ
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+TC
+jA
+gW
+jS
+wG
+CS
+Gc
+eI
 dj
 dj
 dj
@@ -930,26 +1042,26 @@ ug
 WJ
 ug
 WJ
+TC
+jA
+gW
+mC
+Cz
+Cz
+Wm
+dC
 dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+Rq
+LK
+LK
+LK
+LK
+LK
+LK
+tU
 dj
 dj
 dj
@@ -1012,26 +1124,26 @@ ug
 ug
 ug
 WJ
+TC
+jA
+gW
+Cz
+mC
+tW
+Vq
+Ju
 dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+ko
+ko
+ko
+ko
+ko
+MA
 dj
 dj
 dj
@@ -1094,26 +1206,26 @@ ug
 ug
 ug
 WJ
+TC
+jA
+sU
+Dz
+Dz
+Jv
 dj
 dj
 dj
+HC
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-KX
-KX
-KX
-KX
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+ko
+xO
+xO
+ko
+ko
+MA
 dj
 dj
 dj
@@ -1176,6 +1288,8 @@ ug
 ug
 WJ
 WJ
+TC
+jA
 dj
 dj
 dj
@@ -1185,17 +1299,15 @@ dj
 dj
 dj
 dj
-Iu
-KX
-KX
-KX
-KX
 dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+ko
+xO
+xO
+xO
+ko
+MA
 dj
 dj
 dj
@@ -1250,34 +1362,34 @@ dj
 dj
 dj
 WJ
-ug
+tp
 ug
 ug
 ug
 ug
 ug
 WJ
+TC
+TC
+jA
 dj
 dj
-Kv
-mv
-mv
-mv
-mv
-RG
+Zi
 dj
-dj
-dj
-KX
-KX
-KX
-KX
+Me
+FI
 dj
 dj
 dj
 dj
-dj
-dj
+IQ
+ko
+xO
+xO
+xO
+xO
+ko
+MA
 dj
 dj
 dj
@@ -1339,27 +1451,27 @@ ug
 ug
 ug
 WJ
-dj
-dj
-uv
-kD
-hP
-kD
-lx
-GQ
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+TC
+TC
+ip
+Yu
+Yu
+Yu
+Yu
+hx
+ip
+Yu
+Yu
+Yu
+FI
+IQ
+ko
+xO
+xO
+xO
+xO
+ko
+MA
 dj
 dj
 dj
@@ -1421,27 +1533,27 @@ ug
 WJ
 WJ
 WJ
-dj
-dj
-uv
-Kz
-hP
-hP
-zr
-GQ
-dj
-dj
-dj
-QO
-QO
-QO
-QO
-dj
-dj
-dj
-dj
-dj
-dj
+TC
+fp
+eR
+kp
+AP
+AP
+AP
+xX
+vR
+Vv
+Jh
+UR
+jA
+IQ
+ko
+xO
+xO
+xO
+ko
+ko
+MA
 dj
 dj
 dj
@@ -1503,27 +1615,27 @@ ug
 ug
 ug
 WJ
-dj
-dj
-uv
-GK
-kD
-sp
-hP
-GQ
-dj
-rI
-Aw
-QO
-QO
-QO
-QO
-dj
-dj
-dj
-dj
-dj
-dj
+TC
+jA
+XM
+hz
+Gx
+LW
+qh
+Bi
+tb
+WU
+ko
+SR
+jA
+IQ
+ko
+ko
+ko
+ko
+ko
+ko
+MA
 dj
 dj
 dj
@@ -1585,27 +1697,27 @@ ug
 ug
 ug
 ug
-dj
-dj
-uv
-GR
-Yy
-NC
-lm
-GQ
-dj
-dj
-dj
-QO
-QO
-QO
-QO
-dj
-dj
-dj
-dj
-dj
-dj
+lo
+vx
+XM
+hz
+Bi
+LL
+hz
+Bi
+tb
+WU
+ko
+SR
+jA
+IQ
+ko
+Fh
+fk
+fk
+fk
+fk
+YX
 dj
 dj
 dj
@@ -1669,20 +1781,20 @@ ug
 dj
 dj
 dj
-uv
-ls
-Yy
-NC
-NC
-GQ
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+XM
+hz
+Bi
+LI
+hz
+Bi
+pg
+YJ
+hA
+lM
+jA
+MP
+fk
+YX
 dj
 dj
 dj
@@ -1751,19 +1863,19 @@ dj
 dj
 dj
 dj
-uv
-GR
-hP
-xO
-hP
-GQ
+EJ
+hz
+hZ
+AP
+nK
+Bi
+vR
+vR
+cz
+fp
+vx
 dj
-dj
-lV
-OE
-lW
-OE
-qc
+rI
 dj
 dj
 dj
@@ -1829,23 +1941,23 @@ dj
 dj
 dj
 dj
+rI
 dj
 dj
 dj
+XM
+Sg
+LW
+LW
+LW
+ER
+DO
+lo
+lo
+vx
 dj
-uv
-GR
-hP
-hP
-hP
-GQ
 dj
-ZM
-Ub
-Je
-Je
-Je
-ua
+dj
 dj
 dj
 dj
@@ -1915,19 +2027,19 @@ dj
 dj
 dj
 dj
-pd
-SA
-QE
-QE
-SA
-Hw
+ay
+lo
+lo
+ns
+HK
+fp
+vx
 dj
 dj
-yP
-oR
-Vv
-Je
-mQ
+dj
+dj
+dj
+dj
 dj
 dj
 dj
@@ -1999,20 +2111,20 @@ dj
 dj
 dj
 dj
-Rv
-Rv
 dj
-Kv
-mv
-mv
-mv
-yH
-BN
-Je
-ua
+ay
+lo
+vx
 dj
 dj
+AG
 dj
+dj
+Na
+LK
+LK
+LK
+tU
 dj
 dj
 dj
@@ -2078,23 +2190,23 @@ dj
 dj
 dj
 dj
-Fr
-dj
-dj
-Rv
-Rv
-dj
-uv
-lm
-Kz
-hP
-GQ
-yP
-NO
-YW
 dj
 dj
 dj
+dj
+dj
+dj
+dj
+dj
+dj
+dj
+HC
+eM
+JL
+yV
+yV
+ZI
+MA
 dj
 dj
 dj
@@ -2159,24 +2271,24 @@ dj
 dj
 dj
 dj
-vv
-Fr
-dj
-Rv
-Ak
-Rv
-Rv
-Kq
-hP
-yz
-tb
-GQ
 dj
 dj
 dj
 dj
 dj
 dj
+dj
+dj
+dj
+dj
+dj
+dj
+dj
+IQ
+Sx
+Sx
+Sx
+MA
 dj
 dj
 dj
@@ -2239,26 +2351,26 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-rI
-dj
-Rv
-Rv
-Rv
-Rv
-Kq
-kD
-ef
-wG
-RY
-RG
+XJ
 dj
 dj
 dj
 dj
 dj
+dj
+dj
+dj
+dj
+dj
+uF
+dj
+dj
+dj
+IQ
+Sx
+Sx
+Sx
+MA
 dj
 dj
 dj
@@ -2326,21 +2438,21 @@ dj
 dj
 dj
 dj
-Rv
-Rv
-Rv
-Rv
-Kq
-hP
-Vb
-xq
-lx
-GQ
 dj
 dj
 dj
 dj
 dj
+dj
+dj
+dj
+dj
+dj
+TE
+bg
+bg
+kg
+MA
 dj
 dj
 dj
@@ -2408,21 +2520,21 @@ dj
 dj
 dj
 dj
-Rv
-Rv
-Rv
-Rv
-pd
-SA
-qQ
-hP
-NX
-Hw
 dj
 dj
 dj
 dj
 dj
+dj
+dj
+dj
+dj
+dj
+MP
+fk
+fk
+fk
+YX
 dj
 dj
 dj
@@ -2496,9 +2608,9 @@ Dc
 Dc
 Dc
 dj
-pd
-SA
-Hw
+dj
+dj
+dj
 dj
 dj
 dj
@@ -2670,7 +2782,7 @@ dj
 dj
 dj
 dj
-dj
+rI
 dj
 dj
 dj
@@ -3637,7 +3749,7 @@ dj
 dj
 dj
 dj
-dj
+vv
 dj
 dj
 dj
@@ -3723,7 +3835,7 @@ dj
 dj
 dj
 dj
-dj
+rI
 dj
 dj
 dj

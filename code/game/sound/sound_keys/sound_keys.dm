@@ -763,6 +763,7 @@
 		'sound/effects/vegetation_walk_1.ogg',
 		'sound/effects/vegetation_walk_2.ogg',
 	)
+
 /datum/sound_effect/bloodcrawl_emerge
 	key = SFX_BLOODCRAWL_EMERGE
 	file_paths = list(
