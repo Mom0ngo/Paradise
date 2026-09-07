@@ -191,6 +191,7 @@
 	desc = "Мощный прожектор, питающийся от внешнего источника."
 	icon = 'icons/obj/structures/big_floodlight.dmi'
 	icon_state = "flood_s_off"
+	max_integrity = 400
 	battery_powered = FALSE
 	light_power = 1
 	light_range = 8
@@ -208,6 +209,9 @@
 	if(stat & BROKEN)
 		return
 	return ..()
+
+/obj/machinery/floodlight/colony/attack_hand(mob/user)
+	return
 
 /obj/machinery/floodlight/colony/examine(mob/user)
 	. = ..()
@@ -266,6 +270,7 @@
 		metal_added = FALSE
 		stat &= ~BROKEN
 		on = TRUE
+		set_light(l_on = TRUE)
 		update_integrity(max_integrity)
 		update_icon(UPDATE_ICON_STATE)
 	return TRUE

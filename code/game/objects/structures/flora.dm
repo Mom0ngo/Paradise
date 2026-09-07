@@ -821,17 +821,22 @@
 /obj/structure/flora/jungle/thickbush/attackby(obj/item/I, mob/user, params)
 	//hatchets and shiet can clear away undergrowth
 	if(I && (I.sharp) && !stump)
-		var/damage = rand(5, 10)
-		if(istype(I, /obj/item/kitchen/knife/combat))
-			damage = rand(15, 20)
-		if(indestructable)
-			to_chat(user, span_danger("Вы отчаянно прорубаетесь сквозь заросли, но здесь они слишком густые."))
-		else
-			user.visible_message(span_danger("[user] яростно бьет [DECLENT_RU_CAP(src, ACCUSATIVE)] с помощью [DECLENT_RU_CAP(I, GENITIVE)]."), span_danger("Вы беспорядочно колотите по [DECLENT_RU_CAP(src, DATIVE)] с помощью [DECLENT_RU_CAP(I, GENITIVE)]."))
-			playsound(src.loc, 'sound/effects/vegetation_hit.ogg', 25, 1)
-			max_integrity -= damage
-			if(max_integrity < 0)
-				to_chat(user, span_notice("Вы убираете [DECLENT_RU_CAP(src, ACCUSATIVE)] ."))
-				qdel(src)
+		clearbush()
 	else
 		return ..()
+
+/obj/structure/flora/jungle/thickbush/clearbush(obj/item/I, mob/user, params)
+	//hatchets and shiet can clear away undergrowth
+	var/damage = rand(5, 10)
+	if(istype(I, /obj/item/kitchen/knife/combat))
+		damage = rand(15, 20)
+	if(indestructable)
+		to_chat(user, span_danger("Вы отчаянно прорубаетесь сквозь заросли, но здесь они слишком густые."))
+	else
+		user.visible_message(span_danger("[user] яростно бьет [DECLENT_RU_CAP(src, ACCUSATIVE)] с помощью [DECLENT_RU_CAP(I, GENITIVE)]."), span_danger("Вы беспорядочно колотите по [DECLENT_RU_CAP(src, DATIVE)] с помощью [DECLENT_RU_CAP(I, GENITIVE)]."))
+		playsound(src.loc, 'sound/effects/vegetation_hit.ogg', 25, 1)
+		max_integrity -= damage
+		if(max_integrity < 0)
+			to_chat(user, span_notice("Вы убираете [DECLENT_RU_CAP(src, ACCUSATIVE)] ."))
+			qdel(src)
+	return .|ATTACK_CHAIN_SUCCESS
