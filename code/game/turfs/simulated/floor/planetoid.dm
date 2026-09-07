@@ -80,6 +80,68 @@
 	icon_state = "desert_dug"
 	dug = TRUE
 
+// DESERT - BEACH EDGE
+/turf/simulated/floor/planetoid/desert/beachedge
+	icon_state = "beach"
+	baseturf = /turf/simulated/floor/planetoid/desert/beachedge
+
+/turf/simulated/floor/planetoid/desert/beachedge/Initialize(mapload)
+	. = ..()
+	icon_state ="beach"
+
+/turf/simulated/floor/planetoid/desert/beachedge/south
+	dir = SOUTH
+
+/turf/simulated/floor/planetoid/desert/beachedge/north
+	dir = NORTH
+
+/turf/simulated/floor/planetoid/desert/beachedge/east
+	dir = EAST
+
+/turf/simulated/floor/planetoid/desert/beachedge/west
+	dir = WEST
+
+// DESERT - BEACH CORNDER
+/turf/simulated/floor/planetoid/desert/beachcorner
+	icon_state = "beachcorner"
+	baseturf = /turf/simulated/floor/planetoid/desert/beachcorner
+
+/turf/simulated/floor/planetoid/desert/beachcorner/Initialize(mapload)
+	. = ..()
+	icon_state ="beachcorner"
+
+/turf/simulated/floor/planetoid/desert/beachcorner/south
+	dir = SOUTH
+
+/turf/simulated/floor/planetoid/desert/beachcorner/north
+	dir = NORTH
+
+/turf/simulated/floor/planetoid/desert/beachcorner/east
+	dir = EAST
+
+/turf/simulated/floor/planetoid/desert/beachcorner/west
+	dir = WEST
+
+/turf/simulated/floor/planetoid/desert/beachcorner2
+	icon_state = "beachcorner2"
+	baseturf = /turf/simulated/floor/planetoid/desert/beachcorner2
+
+/turf/simulated/floor/planetoid/desert/beachcorner2/Initialize(mapload)
+	. = ..()
+	icon_state ="beachcorner2"
+
+/turf/simulated/floor/planetoid/desert/beachcorner2/south
+	dir = SOUTH
+
+/turf/simulated/floor/planetoid/desert/beachcorner2/north
+	dir = NORTH
+
+/turf/simulated/floor/planetoid/desert/beachcorner2/east
+	dir = EAST
+
+/turf/simulated/floor/planetoid/desert/beachcorner2/west
+	dir = WEST
+
 /turf/simulated/floor/planetoid/desert/proc/can_dig(mob/user)
 	if(!dug)
 		return TRUE
@@ -621,39 +683,8 @@
 /turf/simulated/floor/planetoid/grass/scorched3/beachcorner/west
 	dir = WEST
 
-// MARK: SEA
-/turf/simulated/floor/planetoid/sea
-	name = "water"
+// MARK: Water
+/turf/simulated/floor/water/planetoid
+	icon = 'icons/turf/ground_map.dmi'
 	icon_state = "seashallow"
-	baseturf = /turf/simulated/floor/planetoid/sea
-	slowdown = 1.75
-	footstep = FOOTSTEP_WATER
-	barefootstep = FOOTSTEP_WATER
-	clawfootstep = FOOTSTEP_WATER
-	heavyfootstep = FOOTSTEP_WATER
-
-/turf/simulated/floor/planetoid/sea/get_ru_names()
-	return alist(
-		NOMINATIVE = "вода",
-		GENITIVE = "воды",
-		DATIVE = "воде",
-		ACCUSATIVE = "воду",
-		INSTRUMENTAL = "водой",
-		PREPOSITIONAL = "воде",
-	)
-
-/turf/simulated/floor/planetoid/sea/deep
-	name = "deep water"
-	icon_state = "seadeep"
-	baseturf = /turf/simulated/floor/planetoid/sea
-	slowdown = 2.5
-
-/turf/simulated/floor/planetoid/sea/deep/get_ru_names()
-	return alist(
-		NOMINATIVE = "глубокая вода",
-		GENITIVE = "глубокой воды",
-		DATIVE = "глубокой воде",
-		ACCUSATIVE = "глубокую воду",
-		INSTRUMENTAL = "глубокой водой",
-		PREPOSITIONAL = "глубокой воде",
-	)
+	slowdown = 0.5

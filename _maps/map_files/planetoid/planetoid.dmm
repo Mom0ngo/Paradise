@@ -6,6 +6,12 @@
 "ay" = (
 /turf/simulated/floor/planetoid/grass/sandcorner2/west,
 /area/planetoid)
+"bg" = (
+/obj/structure/railing/wooden{
+	dir = 4
+	},
+/turf/simulated/floor/water/hot_spring,
+/area/planetoid)
 "cz" = (
 /obj/structure/flora/jungle/cart_wreck,
 /turf/simulated/floor/planetoid/grass/grass1,
@@ -19,6 +25,10 @@
 "eI" = (
 /turf/simulated/floor/planetoid/grass/scorched2/sandcorner2/east,
 /area/planetoid)
+"eM" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/simulated/floor/planetoid/desert,
+/area/planetoid)
 "eR" = (
 /obj/structure/flora/junglebush/large,
 /turf/simulated/floor/planetoid/grass/sandcorner/west,
@@ -26,6 +36,9 @@
 "fe" = (
 /obj/structure/flora/corn_stalk/alt_1,
 /turf/simulated/floor/planetoid/grass/scorched2,
+/area/planetoid)
+"fk" = (
+/turf/simulated/floor/planetoid/desert/beachedge/west,
 /area/planetoid)
 "fp" = (
 /turf/simulated/floor/planetoid/grass/sandcorner/south,
@@ -57,6 +70,16 @@
 /area/planetoid)
 "jS" = (
 /turf/simulated/floor/planetoid/grass/scorched2/scorched_alt,
+/area/planetoid)
+"kg" = (
+/obj/structure/railing/wooden/cornerl,
+/obj/structure/railing/wooden{
+	dir = 4
+	},
+/turf/simulated/floor/water/hot_spring,
+/area/planetoid)
+"ko" = (
+/turf/simulated/floor/water/planetoid,
 /area/planetoid)
 "kp" = (
 /turf/simulated/floor/planetoid/grass/dirtcorner/south,
@@ -108,6 +131,9 @@
 "tu" = (
 /turf/simulated/floor/light/colour_cycle,
 /area/coldcolony/malta/hallway/service/central)
+"tU" = (
+/turf/simulated/floor/planetoid/desert/beachcorner/west,
+/area/planetoid)
 "tW" = (
 /turf/simulated/floor/planetoid/grass/scorched3/sandcorner/south,
 /area/planetoid)
@@ -130,15 +156,12 @@
 "vT" = (
 /turf/simulated/wall/indestructible/rock,
 /area/planetoid)
-"ws" = (
-/turf/simulated/floor/planetoid/grass/beachedge/north,
-/area/planetoid)
 "wG" = (
 /obj/machinery/floodlight/colony,
 /turf/simulated/floor/planetoid/grass/scorched1,
 /area/planetoid)
 "xO" = (
-/turf/simulated/floor/planetoid/sea,
+/turf/simulated/floor/water/deep_beach,
 /area/planetoid)
 "xX" = (
 /obj/structure/flora/ausbushes/leafybush,
@@ -146,6 +169,12 @@
 /area/planetoid)
 "ym" = (
 /turf/simulated/floor/planetoid/grass/scorched2/sandcorner/east,
+/area/planetoid)
+"yV" = (
+/obj/structure/railing/wooden{
+	dir = 8
+	},
+/turf/simulated/floor/water/hot_spring,
 /area/planetoid)
 "Aj" = (
 /obj/effect/landmark/spawner/late/crew,
@@ -186,6 +215,9 @@
 "ER" = (
 /turf/simulated/floor/planetoid/grass/dirtcorner/east,
 /area/planetoid)
+"Fh" = (
+/turf/simulated/floor/planetoid/desert/beachcorner2/west,
+/area/planetoid)
 "FI" = (
 /turf/simulated/floor/planetoid/grass/sandcorner2/east,
 /area/planetoid)
@@ -205,6 +237,9 @@
 "HM" = (
 /turf/simulated/floor/planetoid/grass/scorched2/sandedge/north,
 /area/planetoid)
+"IQ" = (
+/turf/simulated/floor/planetoid/desert/beachedge/south,
+/area/planetoid)
 "IS" = (
 /turf/simulated/floor/planetoid/grass/scorched2/sandcorner/south,
 /area/planetoid)
@@ -217,9 +252,16 @@
 "Jv" = (
 /turf/simulated/floor/planetoid/grass/scorched3/sandcorner2/south,
 /area/planetoid)
+"JL" = (
+/obj/structure/railing/wooden/cornerr,
+/turf/simulated/floor/planetoid/desert/beachedge/south,
+/area/planetoid)
 "LI" = (
 /obj/structure/flora/rock/pile/icy,
 /turf/simulated/floor/planetoid/grass/grass1,
+/area/planetoid)
+"LK" = (
+/turf/simulated/floor/planetoid/desert/beachedge/east,
 /area/planetoid)
 "LL" = (
 /obj/structure/flora/jungle/alienplant1,
@@ -234,11 +276,34 @@
 "Me" = (
 /turf/simulated/floor/planetoid/grass/sandcorner2/north,
 /area/planetoid)
+"MA" = (
+/turf/simulated/floor/planetoid/desert/beachedge/north,
+/area/planetoid)
+"MP" = (
+/turf/simulated/floor/planetoid/desert/beachcorner/north,
+/area/planetoid)
+"Na" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/simulated/floor/planetoid/desert/beachcorner/south,
+/area/planetoid)
+"Rq" = (
+/turf/simulated/floor/planetoid/desert/beachcorner/south,
+/area/planetoid)
 "Sg" = (
 /turf/simulated/floor/planetoid/grass/dirtcorner/north,
 /area/planetoid)
+"Sx" = (
+/turf/simulated/floor/water/hot_spring,
+/area/planetoid)
+"SR" = (
+/turf/simulated/floor/planetoid/grass/beachedge/north,
+/area/planetoid)
 "TC" = (
 /turf/simulated/wall/indestructible/jungle,
+/area/planetoid)
+"TE" = (
+/obj/structure/railing/wooden/cornerl,
+/turf/simulated/floor/planetoid/desert/beachedge/south,
 /area/planetoid)
 "UR" = (
 /obj/structure/flora/jungle/planttop1,
@@ -272,8 +337,18 @@
 "YJ" = (
 /turf/simulated/floor/planetoid/grass/beachcorner/west,
 /area/planetoid)
+"YX" = (
+/turf/simulated/floor/planetoid/desert/beachcorner/east,
+/area/planetoid)
 "Zi" = (
 /turf/simulated/floor/planetoid/grass/sandsingle,
+/area/planetoid)
+"ZI" = (
+/obj/structure/railing/wooden/cornerr,
+/obj/structure/railing/wooden{
+	dir = 8
+	},
+/turf/simulated/floor/water/hot_spring,
 /area/planetoid)
 
 (1,1,1) = {"
@@ -823,7 +898,7 @@ dj
 dj
 dj
 dj
-dj
+rI
 dj
 dj
 dj
@@ -979,14 +1054,14 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+Rq
+LK
+LK
+LK
+LK
+LK
+LK
+tU
 dj
 dj
 dj
@@ -1061,14 +1136,14 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+ko
+ko
+ko
+ko
+ko
+MA
 dj
 dj
 dj
@@ -1143,14 +1218,14 @@ dj
 HC
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+ko
+xO
+xO
+ko
+ko
+MA
 dj
 dj
 dj
@@ -1225,14 +1300,14 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+ko
+xO
+xO
+xO
+ko
+MA
 dj
 dj
 dj
@@ -1307,14 +1382,14 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+xO
+xO
+xO
+xO
+ko
+MA
 dj
 dj
 dj
@@ -1389,14 +1464,14 @@ Yu
 Yu
 Yu
 FI
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+xO
+xO
+xO
+xO
+ko
+MA
 dj
 dj
 dj
@@ -1471,14 +1546,14 @@ Vv
 Jh
 UR
 jA
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+xO
+xO
+xO
+ko
+ko
+MA
 dj
 dj
 dj
@@ -1550,17 +1625,17 @@ qh
 Bi
 tb
 WU
-xO
-ws
+ko
+SR
 jA
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+ko
+ko
+ko
+ko
+ko
+MA
 dj
 dj
 dj
@@ -1632,17 +1707,17 @@ hz
 Bi
 tb
 WU
-xO
-ws
+ko
+SR
 jA
-dj
-dj
-dj
-dj
-dj
-dj
-dj
-dj
+IQ
+ko
+Fh
+fk
+fk
+fk
+fk
+YX
 dj
 dj
 dj
@@ -1717,9 +1792,9 @@ YJ
 hA
 lM
 jA
-dj
-dj
-dj
+MP
+fk
+YX
 dj
 dj
 dj
@@ -1866,7 +1941,7 @@ dj
 dj
 dj
 dj
-dj
+rI
 dj
 dj
 dj
@@ -2045,11 +2120,11 @@ dj
 AG
 dj
 dj
-dj
-dj
-dj
-dj
-dj
+Na
+LK
+LK
+LK
+tU
 dj
 dj
 dj
@@ -2126,12 +2201,12 @@ dj
 dj
 dj
 HC
-dj
-dj
-dj
-dj
-dj
-dj
+eM
+JL
+yV
+yV
+ZI
+MA
 dj
 dj
 dj
@@ -2209,11 +2284,11 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
+IQ
+Sx
+Sx
+Sx
+MA
 dj
 dj
 dj
@@ -2291,11 +2366,11 @@ uF
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
+IQ
+Sx
+Sx
+Sx
+MA
 dj
 dj
 dj
@@ -2373,11 +2448,11 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
+TE
+bg
+bg
+kg
+MA
 dj
 dj
 dj
@@ -2455,11 +2530,11 @@ dj
 dj
 dj
 dj
-dj
-dj
-dj
-dj
-dj
+MP
+fk
+fk
+fk
+YX
 dj
 dj
 dj
@@ -2707,7 +2782,7 @@ dj
 dj
 dj
 dj
-dj
+rI
 dj
 dj
 dj
