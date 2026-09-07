@@ -43,7 +43,8 @@
 				{ "value": "/datum/map/fast_load_multiz", "label": "fast load multiz" },
 				{ "value": "/datum/map/multiz", "label": "Multiz" },
 				{ "value": "/datum/map/nova", "label": "Nova" },
-				{ "value": "/datum/map/test_tiny", "label": "Test Tiny" }
+				{ "value": "/datum/map/test_tiny", "label": "Test Tiny" },
+				{ "value": "/datum/map/planetoid", "label": "Planetoid" }
 			]
 		},
 		{
