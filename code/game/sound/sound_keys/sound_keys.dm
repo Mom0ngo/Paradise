@@ -762,4 +762,19 @@
 		'sound/effects/vegetation_walk_0.ogg',
 		'sound/effects/vegetation_walk_1.ogg',
 		'sound/effects/vegetation_walk_2.ogg',
+   
+/datum/sound_effect/bloodcrawl_emerge
+	key = SFX_BLOODCRAWL_EMERGE
+	file_paths = list(
+		'sound/hallucinations/behind_you1.ogg',
+		'sound/hallucinations/im_here1.ogg',
+		'sound/hallucinations/turn_around1.ogg',
+		'sound/hallucinations/i_see_you1.ogg',
+	)
+
+/datum/sound_effect/heavy_footstep
+	key = SFX_HEAVYFOOTSTEP
+	file_paths = list(
+		'sound/effects/footstep/heavy1.ogg',
+		'sound/effects/footstep/heavy2.ogg',
 	)
