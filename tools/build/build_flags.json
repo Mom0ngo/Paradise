@@ -44,7 +44,8 @@
 				{ "value": "/datum/map/multiz", "label": "Multiz" },
 				{ "value": "/datum/map/nova", "label": "Nova" },
 				{ "value": "/datum/map/test_tiny", "label": "Test Tiny" },
-				{ "value": "/datum/map/planetoid", "label": "Planetoid" }
+				{ "value": "/datum/map/planetoid", "label": "Planetoid" },
+				{ "value": "/datum/map/lazarus", "label": "Lazarus" }
 			]
 		},
 		{
