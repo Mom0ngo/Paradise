@@ -33,7 +33,7 @@
 	name = "desert"
 	icon_state = "desert"
 	baseturf = /turf/simulated/floor/planetoid/desert
-	var/obj/item/stack/digResult = /obj/item/stack/ore/glass
+	var/obj/item/stack/dig_result = /obj/item/stack/ore/glass
 	var/dug
 
 /turf/simulated/floor/planetoid/desert/get_ru_names()
@@ -86,8 +86,8 @@
 	if(user)
 		to_chat(user, span_notice("Похоже, здесь уже копали."))
 
-/turf/simulated/floor/planetoid/desert/proc/getDug()
-	new digResult(src, 5)
+/turf/simulated/floor/planetoid/desert/proc/get_dug()
+	new dig_result(src, 5)
 	dug = TRUE
 	update_icon(UPDATE_ICON_STATE)
 
@@ -97,7 +97,7 @@
 	if(ATTACK_CHAIN_CANCEL_CHECK(.))
 		return .
 
-	if((istype(I, /obj/item/shovel) || I.tool_behaviour == TOOL_MINING))
+	if(istype(I, /obj/item/shovel) || I.tool_behaviour == TOOL_MINING)
 		if(!can_dig(user))
 			return .
 		I.play_tool_sound()
@@ -110,7 +110,7 @@
 			new /obj/structure/pit(src)
 			dug = TRUE
 		else
-			getDug()
+			get_dug()
 		return .|ATTACK_CHAIN_SUCCESS
 
 // MARK: DIRT
