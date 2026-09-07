@@ -319,16 +319,15 @@
 		notify_ghosts(title = "Custom Shell", message = "A custom mortar shell is about to land at [get_area(target)].", source = effect)
 	add_game_logs("fired an explosive shell from a mortar to ([target.x], [target.y], [target.z]).", usr)
 	message_admins("[usr] set mortar target to ([target.x], [target.y], [target.z]).[ADMIN_JMP(target)] [ADMIN_FLW(usr, usr)].")
-	if(!shell.silent)
-		handle_messages(target)
-	else
-		sleep(5.5 SECONDS)
-	// Shell impact is muffled inside caves - no explosion, just a rumble
 	if(istype(get_area(target), /area/planetoid/caves))
 		handle_cave_impact(target)
 		qdel(shell)
 		firing = FALSE
 		return
+	if(!shell.silent)
+		handle_messages(target)
+	else
+		sleep(5.5 SECONDS)
 	shell.detonate(target)
 	qdel(shell)
 	firing = FALSE
