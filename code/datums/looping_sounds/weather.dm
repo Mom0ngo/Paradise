@@ -94,3 +94,40 @@
 		return
 
 	timer_id = addtimer(CALLBACK(src, PROC_REF(sound_loop)), sound_to_length[picked_sound], TIMER_CLIENT_TIME | TIMER_STOPPABLE | TIMER_DELETE_ME, SSsound_loops)
+
+
+/datum/looping_sound/weak_outside_rain
+	mid_sounds = list('sound/ambience/weather/rain/rain_mid.ogg' = 1)
+	sound_channel = CHANNEL_AMBIENCE
+	mid_length = 80
+	start_sound = 'sound/ambience/weather/rain/rain_start.ogg'
+	start_length = 130
+	end_sound = 'sound/ambience/weather/rain/rain_end.ogg'
+	volume = 20
+
+/datum/looping_sound/weak_inside_rain
+	mid_sounds = list('sound/ambience/weather/rain/rain_mid.ogg' = 1)
+	sound_channel = CHANNEL_AMBIENCE
+	mid_length = 80
+	start_sound = 'sound/ambience/weather/rain/rain_start.ogg'
+	start_length = 130
+	end_sound = 'sound/ambience/weather/rain/rain_end.ogg'
+	volume = 10
+
+/datum/looping_sound/active_outside_rain
+	mid_sounds = list('sound/ambience/weather/rain/rain_mid.ogg' = 1)
+	sound_channel = CHANNEL_AMBIENCE
+	mid_length = 80
+	start_sound = 'sound/ambience/weather/rain/rain_start.ogg'
+	start_length = 130
+	end_sound = 'sound/ambience/weather/rain/rain_end.ogg'
+	volume = 40
+
+/datum/looping_sound/active_inside_rain
+	mid_sounds = list('sound/ambience/weather/rain/rain_mid.ogg' = 1)
+	sound_channel = CHANNEL_AMBIENCE
+	mid_length = 80
+	start_sound = 'sound/ambience/weather/rain/rain_start.ogg'
+	start_length = 130
+	end_sound = 'sound/ambience/weather/rain/rain_end.ogg'
+	volume = 20
