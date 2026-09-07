@@ -191,7 +191,7 @@
 	desc = "Мощный прожектор, питающийся от внешнего источника."
 	icon = 'icons/obj/structures/big_floodlight.dmi'
 	icon_state = "flood_s_off"
-	max_integrity = 400
+	max_integrity = 200
 	battery_powered = FALSE
 	light_power = 1
 	light_range = 8
