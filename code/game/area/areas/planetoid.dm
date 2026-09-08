@@ -25,6 +25,7 @@
 	name = "Command Nexus"
 	holomap_color = HOLOMAP_AREACOLOR_COMMAND
 	sound_environment = SOUND_ENVIRONMENT_HALLWAY
+	outdoors = TRUE
 
 /area/planetoid/lazarus/nexus/maintenance
 	name = "Command Nexus maintenance"
