@@ -12,14 +12,12 @@
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
 	heavyfootstep = FOOTSTEP_SAND
+	underfloor_accessibility = UNDERFLOOR_INTERACTABLE
 
 /turf/simulated/floor/planetoid/ex_act(severity, target)
 	return
 
 /turf/simulated/floor/planetoid/fire_act(exposed_temperature, exposed_volume)
-	return
-
-/turf/simulated/floor/planetoid/make_plating(make_floor_tile, mob/user)
 	return
 
 /turf/simulated/floor/planetoid/remove_plating()
@@ -693,4 +691,3 @@
 /turf/simulated/floor/water/planetoid
 	icon = 'icons/turf/ground_map.dmi'
 	icon_state = "seashallow"
-	slowdown = 0.5
