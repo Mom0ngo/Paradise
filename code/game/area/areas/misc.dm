@@ -15,23 +15,3 @@
 	static_lighting = FALSE
 	has_gravity = STANDARD_GRAVITY
 	ambient_buzz = null
-
-/area/planetoid
-	name = "planetoid Surface"
-	icon_state = "planet"
-	outdoors = TRUE
-	poweralm = FALSE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	has_gravity = STANDARD_GRAVITY
-	sound_environment = SOUND_ENVIRONMENT_MOUNTAINS
-	ambience_index = AMBIENCE_PLANETOID
-	ambient_buzz = null
-
-/area/planetoid/caves
-	name = "planetoid caves"
-	icon_state = "cave"
-	outdoors = FALSE
-	sound_environment = SOUND_ENVIRONMENT_CAVE
-	ambience_index = AMBIENCE_REEBE

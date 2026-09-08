@@ -1180,6 +1180,7 @@
 #include "code\game\area\areas\mining.dm"
 #include "code\game\area\areas\misc.dm"
 #include "code\game\area\areas\moonoutpost19.dm"
+#include "code\game\area\areas\planetoid.dm"
 #include "code\game\area\areas\shuttles.dm"
 #include "code\game\area\areas\space_areas.dm"
 #include "code\game\area\areas\taipan.dm"
