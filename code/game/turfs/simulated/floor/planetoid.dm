@@ -142,6 +142,12 @@
 /turf/simulated/floor/planetoid/desert/beachcorner2/west
 	dir = WEST
 
+/turf/simulated/floor/planetoid/desert/update_icon_state()
+	if(dug)
+		icon_state = "desert_dug"
+	else
+		icon_state =  initial(icon_state)
+
 /turf/simulated/floor/planetoid/desert/proc/can_dig(mob/user)
 	if(!dug)
 		return TRUE
