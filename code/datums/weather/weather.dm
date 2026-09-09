@@ -186,7 +186,9 @@
 		if(isnewplayer(mob) || !(mob.z in impacted_z_levels))
 			continue
 		mob.playsound_local(mob, null, 100, FALSE, 0, null, 0, FALSE, thunder)
-		mob.overlay_fullscreen("lightning_flash", /atom/movable/screen/fullscreen/lighting_backdrop)
+		var/area/mob_area = get_area(mob)
+		if(mob_area?.outdoors)
+			mob.overlay_fullscreen("lightning_flash", /atom/movable/screen/fullscreen/lighting_backdrop)
 	addtimer(CALLBACK(src, PROC_REF(clear_lightning_flash)), 0.05 SECONDS)
 
 /datum/weather/proc/clear_lightning_flash()

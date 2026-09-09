@@ -12,14 +12,12 @@
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
 	heavyfootstep = FOOTSTEP_SAND
+	underfloor_accessibility = UNDERFLOOR_INTERACTABLE
 
 /turf/simulated/floor/planetoid/ex_act(severity, target)
 	return
 
 /turf/simulated/floor/planetoid/fire_act(exposed_temperature, exposed_volume)
-	return
-
-/turf/simulated/floor/planetoid/make_plating(make_floor_tile, mob/user)
 	return
 
 /turf/simulated/floor/planetoid/remove_plating()
@@ -141,6 +139,12 @@
 
 /turf/simulated/floor/planetoid/desert/beachcorner2/west
 	dir = WEST
+
+/turf/simulated/floor/planetoid/desert/update_icon_state()
+	if(dug)
+		icon_state = "desert_dug"
+	else
+		icon_state =  initial(icon_state)
 
 /turf/simulated/floor/planetoid/desert/proc/can_dig(mob/user)
 	if(!dug)
@@ -687,4 +691,3 @@
 /turf/simulated/floor/water/planetoid
 	icon = 'icons/turf/ground_map.dmi'
 	icon_state = "seashallow"
-	slowdown = 0.5

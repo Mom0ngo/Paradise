@@ -15,5 +15,5 @@
 	disables = DISABLE_ALL
 
 	traits = list(
-		list(MAIN_STATION, STATION_LEVEL = "Station", ZTRAIT_RAIN, ZTRAIT_BASETURF = /turf/simulated/floor/planetoid/dirt),
+		list(MAIN_STATION, STATION_LEVEL = "Station", ZTRAIT_RAIN, ZTRAIT_BASETURF = /turf/simulated/floor/planetoid/desert),
 	)

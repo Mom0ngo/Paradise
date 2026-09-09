@@ -256,6 +256,11 @@
 	desc = "Красивая фотография таяры, закрепленная на доске."
 	icon_state = "tajarplaque"
 
+/obj/structure/sign/nucleationplague
+	name = "фотография нуклеации"
+	desc = "Фотография какой-то нуклеации, закрепленная на доске."
+	icon_state = "nucleationplague"
+
 /obj/structure/sign/mech
 	name = "картина меха"
 	desc = "Картина бота ED-209."
