@@ -237,6 +237,16 @@
 "HM" = (
 /turf/simulated/floor/planetoid/grass/scorched2/sandedge/north,
 /area/planetoid)
+"HV" = (
+/obj/docking_port/stationary{
+	id = "explorer_ship_home";
+	name = "explorer shuttle bay";
+	width = 9;
+	height = 14;
+	dwidth = 4
+	},
+/turf/simulated/floor/planetoid/desert,
+/area/planetoid)
 "IQ" = (
 /turf/simulated/floor/planetoid/desert/beachedge/south,
 /area/planetoid)
@@ -4912,7 +4922,7 @@ dj
 dj
 dj
 dj
-dj
+HV
 dj
 dj
 dj

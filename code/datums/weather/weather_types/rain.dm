@@ -15,7 +15,10 @@
 
 	area_type = /area/planetoid
 	target_trait = ZTRAIT_RAIN
-	protected_areas = list(/area/planetoid/caves)
+	protected_areas = list(
+		/area/planetoid/caves,
+		/area/planetoid/lazarus
+	)
 
 	probability = 50
 	lightning_chance = 5
