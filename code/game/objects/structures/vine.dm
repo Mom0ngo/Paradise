@@ -5,7 +5,6 @@
 	icon = 'icons/effects/spacevines.dmi'
 	icon_state = "Light1"
 	anchored = TRUE
-	density = TRUE
 	layer = SPACEVINE_LAYER
 	mouse_opacity = MOUSE_OPACITY_OPAQUE
 	max_integrity = 50
@@ -34,4 +33,4 @@
 	max_integrity = pick(90, 150)
 
 /obj/structure/vine/play_attack_sound(damage_amount, damage_type = BRUTE, damage_flag = 0)
-	playsound(src.loc, 'sound/effects/fencehit.ogg', 25, TRUE)
+	playsound(src.loc, 'sound/effects/vegetation_hit.ogg', 25, TRUE)
