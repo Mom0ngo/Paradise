@@ -226,4 +226,12 @@
 /obj/structure/bonfire/prelit/LateInitialize()
 	start_burning()
 
+/obj/structure/bonfire/prelit/campfire
+	icon = 'icons/obj/bonfire.dmi'
+	icon_state = "campfire"
+
+/obj/structure/bonfire/prelit/brazier
+	icon = 'icons/obj/bonfire.dmi'
+	icon_state = "brazier"
+
 #undef BONFIRE_FIRE_STACK_STRENGTH

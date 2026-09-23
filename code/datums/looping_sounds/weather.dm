@@ -117,7 +117,7 @@
 	start_sound = 'sound/ambience/weather/rain/outside/rain_active_outside_start.ogg'
 	start_length = 14 SECONDS
 	mid_sounds = list('sound/ambience/weather/rain/outside/rain_active_outside_midloop.ogg' = 1)
-	mid_length = 14 SECONDS
+	mid_length = 12 SECONDS
 	end_sound = 'sound/ambience/weather/rain/outside/rain_active_outside_end.ogg'
 	sound_channel = CHANNEL_WEATHER
 	volume = 50
