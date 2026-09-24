@@ -1323,3 +1323,93 @@
 /area/planetoid/lazarus/telecomms/server
 	name = "Telecoms Server Room"
 	icon_state = "tcomms"
+
+// Another
+/area/planetoid/lazarus/spaceport
+	name = "Spaceport"
+
+/area/planetoid/lazarus/lz_ert
+	name = "LZ ERT"
+
+/area/planetoid/lazarus/lz_sol
+	name = "LZ Sol"
+
+/area/planetoid/lazarus/lz_addition_goals
+	name = "LZ Addition Goals"
+
+/area/planetoid/lazarus/lz_ferry
+	name = "LZ Ferry"
+
+/area/planetoid/lazarus/lz_centcomm
+	name = "LZ CentComm"
+
+/area/planetoid/lazarus/lz_escape_pod_one
+	name = "LZ Escape Pod One"
+
+/area/planetoid/lazarus/lz_escape_pod_two
+	name = "LZ Escape Pod Two"
+
+/area/planetoid/lazarus/lz_escape_pod_tree
+	name = "LZ Escape Pod Tree"
+
+/area/planetoid/lazarus/lz_escape_pod_four
+	name = "LZ Escape Pod Four"
+
+/area/planetoid/lazarus/lz_pods_ship
+	name = "LZ Pods Ship"
+
+//
+/area/planetoid/caves/central_cave_network
+	name = "Central Cave Network"
+
+/area/planetoid/caves/east_rnd_cave
+	name = "East RnD Cave"
+
+/area/planetoid/caves/north_rnd_cave
+	name = "North RnD Cave"
+
+/area/planetoid/caves/west_eng_cave
+	name = "West Eng Cave"
+
+/area/planetoid/caves/north_eng_cave
+	name = "North Eng Cave"
+
+/area/planetoid/caves/underground_lake
+	name = "Underground Lake"
+
+//
+/area/planetoid/lakes
+	// ambience_index = речка реченька речушка
+
+/area/planetoid/lakes/central
+	name = "Central Of The River"
+
+/area/planetoid/lakes/west
+	name = "West Of The River"
+
+/area/planetoid/lakes/east
+	name = "East Of The River"
+
+/area/planetoid/lakes/beach
+	name = "Beach"
+
+/area/planetoid/lakes/west_bridge
+	name = "Weast Bridge"
+
+/area/planetoid/lakes/central_bridge
+	name = "Central Bridge"
+
+/area/planetoid/lakes/east_brig
+	name = "East Brid"
+
+/area/planetoid/jungle
+	// ambience_index = листья листики листочки
+
+/area/planetoid/jungle/temple_inner
+	name = "Temple Inner"
+
+/area/planetoid/jungle/temple_inner
+	name = "Temple Outer"
+
+/area/planetoid/jungle/test_jungle
+	name = "Test Jungle"

@@ -14,6 +14,7 @@
 	heavyfootstep = FOOTSTEP_SAND
 	underfloor_accessibility = UNDERFLOOR_INTERACTABLE
 	baseturf = /turf/simulated/floor/planetoid
+	layer = SPACE_LAYER
 
 /turf/simulated/floor/planetoid/ex_act(severity, target)
 	return
@@ -30,7 +31,6 @@
 /turf/simulated/floor/planetoid/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/stack/rods))
 		build_with_rods(I, user)
-		// Planetoid ground renders at TURF_LAYER, so a lattice/catwalk built on it has to be lifted to stay visible.
 		var/obj/structure/lattice/built_lattice = locate() in src
 		if(built_lattice)
 			built_lattice.layer = MID_TURF_LAYER

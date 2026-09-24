@@ -12,6 +12,7 @@
 
 	end_message = span_notice_alt("Дождь заканчивается. Последние капли падают на землю.")
 	end_overlay = "light_rain"
+	weather_color = COLOR_PALE_BLUE_GRAY
 
 	area_type = /area/planetoid
 	target_trait = ZTRAIT_RAIN
@@ -63,10 +64,14 @@
 			GLOB.rain_sounds -= weak_sounds
 
 /datum/weather/rain/telegraph()
+	if(stage == STARTUP_STAGE)
+		return TRUE
+	update_eligible_areas()
+	update_audio(STARTUP_STAGE)
 	. = ..()
-	if(.)
-		update_eligible_areas()
-		update_audio(STARTUP_STAGE)
+	if(!.)
+		update_audio(END_STAGE)
+		SEND_GLOBAL_SIGNAL(COMSIG_WEATHER_END(type), src)
 
 /datum/weather/rain/start()
 	update_audio(MAIN_STAGE)
@@ -114,3 +119,32 @@
 			GLOB.rain_sounds += weak_sounds
 
 		if(END_STAGE)
+			GLOB.rain_sounds -= weak_sounds
+
+/datum/weather/rain/acid
+	name = "acid rain"
+	desc = "Кислотный дождь пропитывает поверхность планеты едкой жидкостью."
+	telegraph_message = span_boldwarning_alt("Небо наливается болезненно-зелёным оттенком. Воздух обжигает горло — немедленно найдите укрытие!")
+	weather_message = span_userdanger_alt("<i>Кислотный дождь разъедает кожу! Под крышу!</i>")
+	end_message = span_boldannounceic_alt("Кислотный ливень стихает. Можно выходить...")
+	weather_color = COLOR_PALE_GREEN_GRAY
+	probability = 40
+	var/burn_per_second = 1
+	var/acid_reagent_dose = 0.2
+
+/datum/weather/rain/acid/weather_act(mob/living/target)
+	if(target.stat == DEAD)
+		return
+	if(!ishuman(target))
+		target.adjustFireLoss(burn_per_second + 0.5)
+		return
+
+	var/mob/living/carbon/human/human_target = target
+	var/static/list/acid_zones = list(BODY_ZONE_HEAD, BODY_ZONE_CHEST, BODY_ZONE_L_ARM, BODY_ZONE_R_ARM, BODY_ZONE_L_LEG, BODY_ZONE_R_LEG)
+
+	for(var/zone in acid_zones)
+		human_target.apply_damage((1 - min(human_target.getarmor(zone, ACID), 100) / 100) * (burn_per_second / length(acid_zones)), BURN, zone)
+
+	if(human_target.reagents)
+		var/acid_multiplier = (1 - min(human_target.getarmor(BODY_ZONE_CHEST, ACID), 100) / 100)
+		human_target.reagents.add_reagent(/datum/reagent/acid, acid_reagent_dose * acid_multiplier)

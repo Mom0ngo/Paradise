@@ -62,10 +62,12 @@
 
 /datum/component/area_sound_manager/proc/change_the_track(skip_start = FALSE)
 	var/existing_loop_id = our_loop?.timer_id
+	var/old_channel = our_loop?.sound_channel
 
 	if(existing_loop_id)
-		// Time left will sometimes return negative values, just ignore them and start a new sound loop now
 		next_loop_time = world.time + max(timeleft(existing_loop_id, SSsound_loops) || 0, 0)
+	else
+		next_loop_time = null
 
 	QDEL_NULL(our_loop)
 
@@ -78,10 +80,10 @@
 	our_loop = new new_loop_type(parent, FALSE, TRUE, skip_start)
 
 	// We're not ready to start another loop, wait before changing the sound so we don't double up
-	if(next_loop_time > world.time)
+	if(next_loop_time > world.time && old_channel != our_loop.sound_channel)
 		addtimer(CALLBACK(src, PROC_REF(start_looping_sound)), next_loop_time - world.time, TIMER_UNIQUE | TIMER_CLIENT_TIME | TIMER_NO_HASH_WAIT | TIMER_DELETE_ME, SSsound_loops)
 		return
-
+	next_loop_time = null
 	start_looping_sound()
 
 /datum/component/area_sound_manager/proc/start_looping_sound()
