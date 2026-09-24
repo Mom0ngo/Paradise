@@ -3281,7 +3281,7 @@
 				if(!you_realy_want_do_this())
 					return
 				SSblackbox.record_feedback("tally", "admin_secrets_fun_used", 1, "Weather Rain")
-				SSweather.run_weather(/datum/weather/rain)
+				SSweather.run_weather(pick(/datum/weather/rain, /datum/weather/rain/drizzle, /datum/weather/rain/acid))
 				message_admins("[key_name_admin(usr)] вызвал дождь на планетоиде")
 			if("polymorph")
 				SSadmin_verbs.dynamic_invoke_verb(usr, /datum/admin_verb/polymorph_all)
