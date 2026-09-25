@@ -10,7 +10,6 @@
 	company_name = "1984"
 	company_short = "1984"
 	starsys_name = "Unknown System"
-
 	admin_only = TRUE
 	disables = DISABLE_ALL
 
