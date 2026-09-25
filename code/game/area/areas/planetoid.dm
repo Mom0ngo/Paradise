@@ -1227,13 +1227,13 @@
 	name = "South Command Checkpoint"
 
 // MARK: Service
-/area/janitor
+/area/planetoid/lazarus/janitor
 	name = "Custodial Closet"
 	icon_state = "janitor"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	holomap_color = HOLOMAP_AREACOLOR_SERVICE
 
-/area/hydroponics
+/area/planetoid/lazarus/hydroponics
 	name = "Hydroponics"
 	icon_state = "hydro"
 	sound_environment = SOUND_AREA_STANDARD_STATION
@@ -1379,7 +1379,8 @@
 
 //
 /area/planetoid/lakes
-	// ambience_index = речка реченька речушка
+	ambient_buzz = 'sound/ambience/misc/riverbuzz.ogg'
+	ambient_buzz_vol = 60
 
 /area/planetoid/lakes/central
 	name = "Central Of The River"
@@ -1403,7 +1404,8 @@
 	name = "East Brid"
 
 /area/planetoid/jungle
-	// ambience_index = листья листики листочки
+	ambient_buzz = 'sound/ambience/misc/ambience_strata.ogg'
+	ambient_buzz_vol = 60
 
 /area/planetoid/jungle/temple_inner
 	name = "Temple Inner"
