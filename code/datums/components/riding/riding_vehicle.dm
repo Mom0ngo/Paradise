@@ -104,7 +104,7 @@
 
 	step(movable_parent, direction)
 	last_move_diagonal = ((direction & (direction - 1)) && (movable_parent.loc == next))
-	COOLDOWN_START(src, vehicle_move_cooldown, (last_move_diagonal? 2 : 1) * vehicle_move_delay)
+	COOLDOWN_START(src, vehicle_move_cooldown, vehicle_move_delay)
 
 	if(QDELETED(src))
 		return
@@ -217,7 +217,7 @@
 	set_riding_offsets(RIDING_OFFSET_ALL, list(TEXT_NORTH = list(0, 4), TEXT_SOUTH = list(0, 4), TEXT_EAST = list(0, 4), TEXT_WEST = list(0, 4)))
 
 /datum/component/riding/vehicle/motorbike
-	vehicle_move_delay = 2
+	vehicle_move_delay = 1.5
 	keytype = /obj/item/key/motorbike
 	ride_check_flags = RIDER_NEEDS_LEGS | RIDER_NEEDS_ARMS | UNBUCKLE_DISABLED_RIDER
 

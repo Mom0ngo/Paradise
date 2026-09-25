@@ -103,9 +103,6 @@
 		if(HAS_TRAIT(parent, trait))
 			REMOVE_TRAIT(rider, trait, UNIQUE_TRAIT_SOURCE(src))
 	rider.remove_traits(rider_traits, UNIQUE_TRAIT_SOURCE(src))
-	if(movable_parent.has_buckled_mobs())
-		handle_vehicle_layer(movable_parent.dir)
-		handle_vehicle_offsets(movable_parent.dir)
 	if(!movable_parent.has_buckled_mobs())
 		qdel(src)
 
