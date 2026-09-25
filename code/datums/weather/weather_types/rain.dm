@@ -136,12 +136,12 @@
 	if(target.stat == DEAD)
 		return
 	if(!ishuman(target))
-		target.adjustFireLoss(burn_per_second + 0.5)
 		return
 
 	var/mob/living/carbon/human/human_target = target
+	if(human_target.head && human_target.wear_suit)
+		return
 	var/static/list/acid_zones = list(BODY_ZONE_HEAD, BODY_ZONE_CHEST, BODY_ZONE_L_ARM, BODY_ZONE_R_ARM, BODY_ZONE_L_LEG, BODY_ZONE_R_LEG)
-
 	for(var/zone in acid_zones)
 		human_target.apply_damage((1 - min(human_target.getarmor(zone, ACID), 100) / 100) * (burn_per_second / length(acid_zones)), BURN, zone)
 
