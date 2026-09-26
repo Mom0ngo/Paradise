@@ -492,10 +492,6 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/nexus)
-"afN" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/west_eng_cave)
 "afP" = (
 /obj/machinery/ai_status_display{
 	pixel_y = 32
@@ -840,6 +836,14 @@
 	icon_state = "white"
 	},
 /area/planetoid/lazarus/medical/virology/lab)
+"ajw" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "redfull"
+	},
+/area/planetoid/lazarus/service/kitchen)
 "ajA" = (
 /obj/effect/turf_decal{
 	dir = 1;
@@ -1284,14 +1288,6 @@
 /obj/structure/vine/medium,
 /turf/simulated/floor/planetoid/grass,
 /area/planetoid/lakes/west)
-"apm" = (
-/obj/machinery/status_display{
-	pixel_x = -32
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "neutralfull"
-	},
-/area/planetoid/lazarus/hallway/primary/aft/south)
 "apv" = (
 /obj/effect/decal/cleanable/dust,
 /obj/structure/bed/old,
@@ -2071,6 +2067,11 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/cargo/lobby)
+"axD" = (
+/turf/simulated/floor/planetoid/grass/sandcorner2{
+	dir = 4
+	},
+/area/planetoid/lakes/east)
 "axG" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "captainofficedoor";
@@ -5161,10 +5162,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/planetoid/lazarus/commons/serviceyard)
-"bkx" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/central_cave_network)
 "bky" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -6055,6 +6052,15 @@
 	icon_state = "purple"
 	},
 /area/planetoid/lazarus/cargo/miningdock)
+"btV" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/newscaster/directional/south,
+/turf/simulated/floor/plasteel{
+	icon_state = "neutralcorner"
+	},
+/area/planetoid/lazarus/hallway/primary/aft/west)
 "bua" = (
 /obj/machinery/disposal,
 /obj/structure/window/reinforced{
@@ -6886,6 +6892,10 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/science/research/lobby)
+"bDL" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/beachcorner/south,
+/area/planetoid/lakes/west)
 "bDP" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
@@ -6919,6 +6929,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel,
 /area/planetoid/lazarus/security/courtroom)
+"bEd" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/planetoid/lazarus/service/kitchen)
 "bEk" = (
 /obj/effect/landmark/start/doctor,
 /turf/simulated/floor/plasteel{
@@ -8598,6 +8616,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel,
 /area/planetoid/lazarus/hallway/primary/aft/east)
 "bWF" = (
@@ -8722,10 +8743,14 @@
 /area/planetoid/lazarus/medical/medbay)
 "bYa" = (
 /obj/structure/table,
-/obj/item/desk_bell,
 /obj/effect/turf_decal/sand,
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/item/desk_bell{
+	anchored = 1;
+	pixel_x = -7;
+	pixel_y = 4
 	},
 /turf/simulated/floor/planetoid/desert/desert,
 /area/planetoid/lakes/beach)
@@ -10007,16 +10032,6 @@
 "cmp" = (
 /turf/simulated/floor/wood/dark,
 /area/planetoid/lazarus/command/office/ntrep)
-"cmr" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/west_eng_cave)
 "cmC" = (
 /obj/structure/vine,
 /turf/simulated/floor/planetoid/grass,
@@ -10469,7 +10484,7 @@
 "crF" = (
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid)
+/area/planetoid/lakes/west)
 "crT" = (
 /obj/machinery/vending/cigarette,
 /obj/effect/decal/cleanable/dirt,
@@ -10505,6 +10520,10 @@
 	},
 /turf/simulated/floor/planetoid/grass/sandcorner2/north,
 /area/planetoid/lakes/central)
+"csf" = (
+/obj/structure/flora/rock/basalt2,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_eng_cave)
 "csj" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -13646,6 +13665,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/medical/virology/lab)
+"ddT" = (
+/obj/structure/flora/rock/basalt4,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/west_eng_cave)
 "ddV" = (
 /obj/machinery/floodlight/colony,
 /obj/structure/lattice/catwalk,
@@ -14698,10 +14721,6 @@
 	icon_state = "darkpurple"
 	},
 /area/planetoid/lazarus/science/hallway/main)
-"dpy" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/east_rnd_cave)
 "dpB" = (
 /obj/structure/vine/heavy,
 /obj/structure/flora/junglebush,
@@ -14919,15 +14938,6 @@
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
 /area/planetoid/escape/escape_shuttle)
-"drs" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/structure/railing,
-/obj/machinery/light/floor,
-/turf/simulated/floor/plating,
-/area/planetoid/lazarus/lz_sol)
 "drD" = (
 /obj/machinery/computer/security,
 /obj/machinery/computer/security/telescreen/prison{
@@ -15767,6 +15777,14 @@
 /obj/structure/flora/rock/jungle,
 /turf/simulated/floor/planetoid/grass/sandedge/south,
 /area/planetoid/caves/east_rnd_cave)
+"dCh" = (
+/obj/machinery/status_display{
+	pixel_x = -32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "neutralfull"
+	},
+/area/planetoid/lazarus/hallway/primary/aft/south)
 "dCo" = (
 /obj/structure/railing,
 /obj/structure/closet/crate,
@@ -17028,7 +17046,7 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/grassybush,
-/obj/effect/spawner/window/reinforced,
+/obj/effect/spawner/window,
 /turf/simulated/floor/indestructible/grass,
 /area/planetoid/lazarus/cargo/lobby)
 "dTU" = (
@@ -20146,13 +20164,6 @@
 	icon_state = "red"
 	},
 /area/planetoid/lazarus/security/customs)
-"eHw" = (
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/west_eng_cave)
 "eHD" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow{
 	desc = "Труба хранит в себе набор газов для смешивания";
@@ -21005,6 +21016,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "redfull"
 	},
@@ -21400,10 +21414,6 @@
 /obj/structure/decor/container/upp_small/container_1/left,
 /turf/simulated/floor/planetoid/grass,
 /area/planetoid)
-"eWc" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/beachcorner,
-/area/planetoid/lakes/west)
 "eWe" = (
 /obj/machinery/door/window,
 /obj/structure/window/reinforced{
@@ -21576,9 +21586,6 @@
 /obj/item/flashlight/lantern/on,
 /turf/simulated/floor/wood,
 /area/planetoid/caves/underground_lake)
-"eYe" = (
-/turf/simulated/floor/planetoid/grass/sandcorner/north,
-/area/planetoid/lakes/east)
 "eYj" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -23049,10 +23056,6 @@
 	icon_state = "darkfull"
 	},
 /area/planetoid/lazarus/engineering/atmos)
-"fpT" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/lakes/west)
 "fpY" = (
 /obj/item/ammo_casing{
 	pixel_y = -9;
@@ -23846,6 +23849,16 @@
 	icon_state = "darkyellow"
 	},
 /area/planetoid/lazarus/engineering/engine)
+"fAA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/west_eng_cave)
 "fAC" = (
 /obj/effect/turf_decal/delivery/hollow/right,
 /obj/structure/chair/sofa/bench/right,
@@ -24587,10 +24600,6 @@
 	icon_state = "purplecorner"
 	},
 /area/planetoid/lazarus/cargo/miningdock)
-"fJQ" = (
-/obj/structure/flora/rock/basalt3,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/central_cave_network)
 "fJR" = (
 /obj/machinery/light_switch/directional/east,
 /turf/simulated/floor/wood/dark,
@@ -25022,6 +25031,10 @@
 "fQt" = (
 /turf/simulated/floor/planetoid/desert/beachcorner/south,
 /area/planetoid/lakes/east)
+"fQN" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid)
 "fQO" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/brflowers,
@@ -25642,6 +25655,15 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/planetoid/grass/sandedge/south,
 /area/planetoid)
+"fZv" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/structure/railing,
+/obj/machinery/light/floor,
+/turf/simulated/floor/plating,
+/area/planetoid/lazarus/lz_sol)
 "fZx" = (
 /obj/effect/spawner/window/reinforced,
 /obj/structure/cable{
@@ -25907,9 +25929,9 @@
 	},
 /area/planetoid/lazarus/science/genetics)
 "gcC" = (
-/obj/structure/flora/rock/basalt4,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/central_cave_network)
+/obj/structure/flora/junglebush,
+/turf/simulated/floor/planetoid/grass/sandcorner/east,
+/area/planetoid/lakes/east)
 "gcD" = (
 /obj/machinery/camera{
 	c_tag = "Command Nexus Outside South"
@@ -27295,6 +27317,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -27671,13 +27696,15 @@
 /turf/simulated/floor/planetoid/grass,
 /area/planetoid)
 "gvq" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 4
+/obj/structure/closet/secure_closet/personal,
+/obj/machinery/vending/wallmed{
+	name = "Emergency NanoMed";
+	pixel_y = -30
 	},
 /turf/simulated/floor/plasteel{
-	icon_state = "neutralfull"
+	icon_state = "neutral"
 	},
-/area/planetoid/escape/escape_shuttle)
+/area/planetoid/lazarus/commons/dorms)
 "gvz" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -27830,6 +27857,12 @@
 	icon_state = "neutralcorner"
 	},
 /area/planetoid/lazarus/security/customs/secondary)
+"gxD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/planetoid/grass/sandedge/south,
+/area/planetoid/lakes/west)
 "gxI" = (
 /obj/structure/lattice,
 /turf/simulated/wall/indestructible/rock,
@@ -30568,6 +30601,10 @@
 	},
 /turf/simulated/floor/carpet,
 /area/planetoid/lazarus/service/library)
+"hhw" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/east_rnd_cave)
 "hhG" = (
 /obj/machinery/light{
 	dir = 4
@@ -34167,14 +34204,6 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/engineering/monitor)
-"hVN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 1
-	},
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_eng_cave)
 "hVO" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -35604,11 +35633,6 @@
 	icon_state = "darkyellow"
 	},
 /area/planetoid/lazarus/engineering/monitor)
-"inP" = (
-/obj/effect/decal/cleanable/dust,
-/obj/structure/closet/crate/secure/loot,
-/turf/simulated/floor/ancient_temple/deco/dark,
-/area/planetoid)
 "inS" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -35931,6 +35955,9 @@
 /obj/effect/turf_decal/box,
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -36420,13 +36447,13 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/planetoid/grass,
 /area/planetoid)
-"iyQ" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_rnd_cave)
 "iyT" = (
 /turf/simulated/wall/r_wall/rust,
 /area/planetoid/lazarus/maintenance/research/science)
+"iyV" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/central_cave_network)
 "iza" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -36526,6 +36553,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "redfull"
@@ -37536,6 +37566,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "neutralcorner"
@@ -37613,6 +37646,14 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/nexus)
+"iOa" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/planetoid/lazarus/service/kitchen)
 "iOo" = (
 /obj/structure/vine,
 /obj/structure/vine/medium,
@@ -38855,6 +38896,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/planetoid/lazarus/security/prison/perma)
+"jdm" = (
+/obj/structure/flora/rock/basalt4,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_rnd_cave)
 "jdq" = (
 /obj/machinery/status_display{
 	layer = 4;
@@ -38949,13 +38994,9 @@
 	},
 /area/planetoid/lazarus/engineering/atmos)
 "jee" = (
-/obj/effect/spawner/window/reinforced/polarized{
-	id = "hopqueuewindows"
-	},
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/genericbush/hell,
-/turf/simulated/floor/planetoid/grass/grass3,
-/area/planetoid/lazarus/command/office/hop)
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/west_eng_cave)
 "jej" = (
 /obj/structure/decor/container/grant/left{
 	pixel_x = 1
@@ -39991,13 +40032,6 @@
 	},
 /turf/simulated/floor/engine,
 /area/planetoid/lazarus/engineering/engine/reactor)
-"jqi" = (
-/obj/structure/cable/orange{
-	icon_state = "4-8"
-	},
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/lakes/central)
 "jqp" = (
 /obj/machinery/computer/card/minor/cmo{
 	dir = 8
@@ -41523,6 +41557,17 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/hunter/hunter_catwalk_alt,
 /area/planetoid)
+"jJB" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light/floor,
+/turf/simulated/floor/plating,
+/area/planetoid/lazarus/lz_sol)
 "jJG" = (
 /obj/structure/railing/wooden{
 	dir = 1
@@ -41635,6 +41680,15 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/planetoid/lazarus/security/courtroom)
+"jKY" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	desc = "Труба хранит в себе набор газов для смешивания";
+	dir = 1;
+	name = "Труба смешивания"
+	},
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_eng_cave)
 "jLk" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -42570,10 +42624,6 @@
 /obj/structure/vine,
 /turf/simulated/floor/wood/fancy/oak,
 /area/planetoid)
-"jXu" = (
-/obj/structure/flora/tree/jungle,
-/turf/simulated/floor/planetoid/grass,
-/area/planetoid/lakes/east)
 "jXH" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -43375,10 +43425,6 @@
 	},
 /turf/simulated/floor/planetoid/grass/sandcorner2,
 /area/planetoid)
-"khu" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/underground_lake)
 "khv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -45029,10 +45075,6 @@
 	icon_state = "neutralfull"
 	},
 /area/planetoid/lazarus/service/library)
-"kwS" = (
-/obj/structure/flora/rock/basalt1,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_eng_cave)
 "kxn" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -45519,18 +45561,6 @@
 /obj/structure/dresser,
 /turf/simulated/floor/carpet/green,
 /area/planetoid/lazarus/medical/virology/lab)
-"kEh" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/status_display{
-	pixel_y = 32
-	},
-/turf/simulated/floor/plasteel{
-	dir = 1;
-	icon_state = "neutralcorner"
-	},
-/area/planetoid/lazarus/hallway/primary/aft/east)
 "kEl" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -47179,6 +47209,14 @@
 "kXG" = (
 /turf/simulated/wall/r_wall,
 /area/planetoid/lazarus/security/podbay)
+"kXJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/planetoid/lazarus/service/kitchen)
 "kYh" = (
 /obj/structure/fence{
 	dir = 4
@@ -47522,6 +47560,17 @@
 	dir = 2
 	},
 /obj/structure/railing,
+/turf/simulated/floor/plating,
+/area/planetoid/lazarus/lz_sol)
+"lcz" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/light/floor,
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/lz_sol)
 "lcK" = (
@@ -48831,6 +48880,15 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/planetoid/lazarus/command/teleporter)
+"lso" = (
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	desc = "Труба содержит дыхательную смесь для подачи на станцию";
+	dir = 1;
+	name = "Труба дыхательной смеси"
+	},
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_eng_cave)
 "lss" = (
 /obj/structure/table/wood{
 	color = "#996633"
@@ -49545,10 +49603,6 @@
 	icon_state = "darkred"
 	},
 /area/planetoid/lazarus/security/evidence)
-"lBD" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/beachcorner/south,
-/area/planetoid/lakes/west)
 "lBE" = (
 /obj/item/twohanded/required/kirbyplants,
 /obj/structure/cable{
@@ -49755,6 +49809,13 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/nexus)
+"lEH" = (
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/lakes/central)
 "lES" = (
 /obj/structure/chair/plastic,
 /obj/effect/turf_decal/tile/dark_red{
@@ -50799,13 +50860,9 @@
 /turf/simulated/floor/planetoid/grass/sandcorner/east,
 /area/planetoid)
 "lSx" = (
-/obj/effect/spawner/window/reinforced/polarized{
-	id = "hopqueuewindows"
-	},
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/genericbush,
-/turf/simulated/floor/planetoid/grass/grass3,
-/area/planetoid/lazarus/command/office/hop)
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/lakes/central)
 "lSy" = (
 /obj/structure/window/reinforced,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -50992,6 +51049,10 @@
 "lTS" = (
 /turf/simulated/floor/planetoid/grass/dirtedge/east,
 /area/planetoid)
+"lTW" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/lakes/east)
 "lTY" = (
 /obj/machinery/computer/arcade,
 /obj/structure/sign/poster/official/random{
@@ -51523,7 +51584,10 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "dark"
+	},
 /area/planetoid/lazarus/science/research/lobby)
 "maG" = (
 /obj/structure/cable{
@@ -53238,6 +53302,10 @@
 	},
 /turf/simulated/floor/planetoid/desert/desert,
 /area/planetoid)
+"mzd" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_rnd_cave)
 "mzg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/decal/remains/mouse/Pinkie,
@@ -53585,6 +53653,9 @@
 "mBE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "redfull"
 	},
@@ -54025,10 +54096,6 @@
 /obj/structure/firepit,
 /turf/simulated/floor/planetoid/desert/desert,
 /area/planetoid/lakes/west)
-"mHC" = (
-/obj/structure/flora/ausbushes/sunnybush,
-/turf/simulated/floor/planetoid/grass/sandcorner/north,
-/area/planetoid/lakes/west)
 "mHM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -54259,7 +54326,7 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/palebush,
-/obj/effect/spawner/window/reinforced,
+/obj/effect/spawner/window,
 /turf/simulated/floor/indestructible/grass,
 /area/planetoid/lazarus/cargo/lobby)
 "mKc" = (
@@ -54809,9 +54876,8 @@
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/lz_centcomm)
 "mSr" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/lakes/central)
+/turf/simulated/floor/planetoid/grass/sandcorner/north,
+/area/planetoid/lakes/east)
 "mSz" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/planetoid/desert/desert,
@@ -56765,10 +56831,6 @@
 	},
 /turf/simulated/floor/wood/fancy/light,
 /area/planetoid/lazarus/command/office/blueshield)
-"nsb" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_eng_cave)
 "nse" = (
 /obj/machinery/light{
 	dir = 1
@@ -56894,6 +56956,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/science/server)
+"nts" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 1
+	},
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_eng_cave)
 "ntN" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/simulated/floor/planetoid/grass/scorched3/sandcorner2{
@@ -59576,6 +59646,7 @@
 	name = "Server Room";
 	req_access = list(30)
 	},
+/obj/structure/plasticflaps/kitchen,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -62888,13 +62959,9 @@
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/maintenance/disposal)
 "oTY" = (
-/obj/effect/spawner/window/reinforced/polarized{
-	id = "hopqueuewindows"
-	},
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/hell,
-/turf/simulated/floor/planetoid/grass/grass3,
-/area/planetoid/lazarus/command/office/hop)
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_eng_cave)
 "oTZ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	desc = "Труба содержит дыхательную смесь для подачи на станцию";
@@ -63173,15 +63240,6 @@
 /obj/structure/vine/medium,
 /turf/simulated/floor/planetoid/desert/desert,
 /area/planetoid)
-"oZR" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	desc = "Труба хранит в себе набор газов для смешивания";
-	dir = 1;
-	name = "Труба смешивания"
-	},
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_eng_cave)
 "oZU" = (
 /turf/simulated/floor/planetoid/grass/sandcorner2/west,
 /area/planetoid/lakes/central)
@@ -63919,6 +63977,10 @@
 	},
 /turf/simulated/floor/planetoid/grass/sandedge/west,
 /area/planetoid)
+"piP" = (
+/obj/structure/flora/ausbushes/sunnybush,
+/turf/simulated/floor/planetoid/grass/sandcorner/north,
+/area/planetoid/lakes/west)
 "piQ" = (
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -65988,6 +66050,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/science/xenobiology)
+"pIg" = (
+/obj/effect/decal/cleanable/dust,
+/obj/structure/closet/crate/secure/loot,
+/turf/simulated/floor/ancient_temple/deco/dark,
+/area/planetoid)
 "pIk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -67215,6 +67282,10 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/planetoid/desert/beachcorner/south,
 /area/planetoid/lakes/beach)
+"pXb" = (
+/obj/structure/flora/rock/basalt3,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_rnd_cave)
 "pXg" = (
 /obj/structure/closet/l3closet/scientist,
 /obj/effect/turf_decal/stripes/line{
@@ -69908,10 +69979,6 @@
 /obj/structure/flora/rock/jungle,
 /turf/simulated/floor/planetoid/grass/sandcorner2/west,
 /area/planetoid)
-"qBI" = (
-/obj/structure/flora/rock/basalt2,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/east_rnd_cave)
 "qBO" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -71758,10 +71825,6 @@
 	icon_state = "white"
 	},
 /area/planetoid/lazarus/science/genetics)
-"rai" = (
-/obj/structure/flora/rock/basalt4,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_rnd_cave)
 "ram" = (
 /obj/effect/hunter/ancient_temple/deco_border{
 	dir = 1
@@ -72267,6 +72330,10 @@
 /obj/structure/vine,
 /turf/simulated/floor/planetoid/grass,
 /area/planetoid/caves/west_eng_cave)
+"rfD" = (
+/obj/structure/flora/rock/basalt1,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/north_eng_cave)
 "rfH" = (
 /obj/effect/turf_decal/siding/wood/pallet{
 	dir = 10
@@ -72794,6 +72861,10 @@
 	icon_state = "green"
 	},
 /area/planetoid/lazarus/hydroponics)
+"rku" = (
+/obj/structure/flora/rock/basalt3,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/central_cave_network)
 "rkN" = (
 /mob/living/simple_animal/hostile/scarybat,
 /turf/simulated/floor/planetoid/desert/desert,
@@ -73906,15 +73977,6 @@
 /obj/item/hand_tele,
 /turf/simulated/floor/plasteel,
 /area/planetoid/lazarus/command/teleporter)
-"rCy" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/newscaster/directional/south,
-/turf/simulated/floor/plasteel{
-	icon_state = "neutralcorner"
-	},
-/area/planetoid/lazarus/hallway/primary/aft/west)
 "rCS" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/simulated/floor/plasteel{
@@ -74587,6 +74649,9 @@
 	req_access = list(70)
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/engineering/mechanic_workshop)
 "rLr" = (
@@ -76382,10 +76447,6 @@
 	icon_state = "darkbluecorners"
 	},
 /area/planetoid/lazarus/nexus)
-"sig" = (
-/obj/structure/flora/rock/basalt3,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_rnd_cave)
 "sik" = (
 /obj/structure/table/reinforced,
 /obj/machinery/coffeemaker/standard,
@@ -76554,6 +76615,9 @@
 "sjJ" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
@@ -77058,6 +77122,10 @@
 	icon_state = "redfull"
 	},
 /area/planetoid/lazarus/security/courtroom)
+"soG" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/beachcorner,
+/area/planetoid/lakes/west)
 "soV" = (
 /obj/structure/chair/office/dark,
 /turf/simulated/floor/plasteel{
@@ -77384,6 +77452,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/security/prison/cell_block)
+"ssA" = (
+/obj/structure/flora/jungle/thickbush,
+/turf/simulated/floor/planetoid/grass,
+/area/planetoid/lakes/east)
 "ssE" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -81076,9 +81148,25 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel,
 /area/planetoid/lazarus/security/prison/perma)
+"tjx" = (
+/obj/structure/flora/tree/jungle,
+/turf/simulated/floor/planetoid/grass,
+/area/planetoid/lakes/east)
 "tjG" = (
 /turf/simulated/floor/planetoid/grass/sandcorner/south,
 /area/planetoid/caves/central_cave_network)
+"tjJ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/status_display{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "neutralcorner"
+	},
+/area/planetoid/lazarus/hallway/primary/aft/east)
 "tjL" = (
 /obj/machinery/jukebox/bar,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -81633,10 +81721,6 @@
 /obj/effect/landmark/start/civilian,
 /turf/simulated/floor/carpet/red,
 /area/planetoid/lazarus/commons/dorms)
-"tpt" = (
-/obj/structure/flora/jungle/thickbush,
-/turf/simulated/floor/planetoid/grass,
-/area/planetoid/lakes/east)
 "tpw" = (
 /turf/simulated/wall/r_wall,
 /area/planetoid/lazarus/lz_ferry)
@@ -81927,6 +82011,13 @@
 "ttM" = (
 /turf/simulated/wall/r_wall,
 /area/planetoid/lazarus/lz_escape_pod_tree)
+"ttQ" = (
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/west_eng_cave)
 "ttV" = (
 /obj/machinery/door/airlock/glass{
 	name = "Cabin"
@@ -82352,11 +82443,6 @@
 	icon_state = "whiteblue"
 	},
 /area/planetoid/lazarus/medical/sleeper)
-"tAC" = (
-/turf/simulated/floor/planetoid/grass/sandcorner2{
-	dir = 4
-	},
-/area/planetoid/lakes/east)
 "tAD" = (
 /obj/effect/decal/cleanable/dust,
 /obj/effect/decal/snow/sand/edge{
@@ -82948,16 +83034,6 @@
 	icon_state = "neutralfull"
 	},
 /area/planetoid/lazarus/cargo/sorting)
-"tIg" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/machinery/vending/wallmed{
-	name = "Emergency NanoMed";
-	pixel_y = -30
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "neutral"
-	},
-/area/planetoid/lazarus/commons/dorms)
 "tIi" = (
 /obj/effect/decal/cleanable/dust,
 /obj/effect/decal/snow/sand/edge{
@@ -83483,6 +83559,10 @@
 	icon_state = "neutralcorner"
 	},
 /area/planetoid/lazarus/hallway/primary/aft/south)
+"tOi" = (
+/obj/structure/flora/rock/basalt4,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/central_cave_network)
 "tOj" = (
 /obj/machinery/atmospherics/binary/pump{
 	desc = "Позволяет подать смесь в вентиляции станции";
@@ -84202,17 +84282,6 @@
 	dir = 8
 	},
 /area/planetoid/lazarus/service/bar/atrium)
-"tXx" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/machinery/light/floor,
-/turf/simulated/floor/plating,
-/area/planetoid/lazarus/lz_sol)
 "tXD" = (
 /obj/machinery/status_display{
 	pixel_x = -32
@@ -85207,10 +85276,6 @@
 /obj/structure/flora/jungle/thickbush,
 /turf/simulated/floor/planetoid/grass/beachedge/south,
 /area/planetoid)
-"ujV" = (
-/obj/structure/flora/rock/basalt4,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/west_eng_cave)
 "ujX" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 6
@@ -85602,7 +85667,7 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/sunnybush,
-/obj/effect/spawner/window/reinforced,
+/obj/effect/spawner/window,
 /turf/simulated/floor/indestructible/grass,
 /area/planetoid/lazarus/cargo/lobby)
 "uoD" = (
@@ -85656,10 +85721,6 @@
 	icon_state = "whitepurple"
 	},
 /area/planetoid/lazarus/science/chem_lab)
-"uoS" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert,
-/area/planetoid/lakes/east)
 "uoY" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/turf_decal/delivery/hollow,
@@ -86017,6 +86078,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
@@ -86467,6 +86531,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "neutralfull"
 	},
@@ -86615,6 +86682,9 @@
 /obj/machinery/power/apc/directional/north,
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plasteel{
 	dir = 5;
@@ -87484,6 +87554,9 @@
 	pixel_y = -24;
 	req_access = list(70)
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -87519,6 +87592,7 @@
 	},
 /obj/structure/dispenser/oxygen,
 /obj/effect/turf_decal/box,
+/obj/structure/cable,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -89617,17 +89691,6 @@
 	icon_state = "bar"
 	},
 /area/planetoid/lazarus/security/prison/perma)
-"vjY" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/machinery/light/floor,
-/turf/simulated/floor/plating,
-/area/planetoid/lazarus/lz_sol)
 "vkc" = (
 /obj/structure/chair/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -90655,12 +90718,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/planetoid/lazarus/medical/virology/lab)
-"vxx" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/planetoid/grass/sandedge/south,
-/area/planetoid/lakes/west)
 "vxz" = (
 /obj/machinery/newscaster/directional/north,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -90893,7 +90950,7 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/bush,
-/obj/effect/spawner/window/reinforced,
+/obj/effect/spawner/window,
 /turf/simulated/floor/indestructible/grass,
 /area/planetoid/lazarus/cargo/lobby)
 "vBp" = (
@@ -91422,10 +91479,6 @@
 	icon_state = "barber"
 	},
 /area/planetoid/lazarus/commons/dorms)
-"vHY" = (
-/obj/structure/flora/junglebush,
-/turf/simulated/floor/planetoid/grass/sandcorner/east,
-/area/planetoid/lakes/east)
 "vIh" = (
 /turf/simulated/wall/r_wall,
 /area/planetoid/lazarus/science/hallway/aest_arrivals)
@@ -91989,6 +92042,10 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/service/library)
+"vOa" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/desert,
+/area/planetoid/lakes/east)
 "vOf" = (
 /obj/effect/landmark/start/botanist,
 /turf/simulated/floor/planetoid/dirt,
@@ -92868,7 +92925,7 @@
 /obj/effect/spawner/window/reinforced/polarized{
 	id = "hopqueuewindows"
 	},
-/turf/simulated/floor/planetoid/grass/grass3,
+/turf/simulated/floor/plating,
 /area/planetoid/lazarus/command/office/hop)
 "vYT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -93543,10 +93600,6 @@
 	icon_state = "darkyellow"
 	},
 /area/planetoid/lazarus/engineering/break_room)
-"wij" = (
-/obj/structure/flora/rock/basalt2,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_eng_cave)
 "wik" = (
 /obj/machinery/newscaster/directional/south,
 /obj/machinery/computer/atmos_alert,
@@ -93681,9 +93734,6 @@
 /turf/simulated/floor/planetoid/grass/sandcorner/west,
 /area/planetoid)
 "wkz" = (
-/obj/structure/safe/floor{
-	known_by = list("captain")
-	},
 /obj/structure/bed,
 /obj/item/bedsheet/captain,
 /obj/item/storage/secure/safe{
@@ -96690,7 +96740,7 @@
 "wSB" = (
 /obj/structure/flora/rock/pile,
 /turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/lakes/east)
+/area/planetoid/caves/underground_lake)
 "wSD" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_4,
 /obj/effect/hunter/ancient_temple/rubble/rubble_5,
@@ -97390,10 +97440,6 @@
 /obj/structure/flora/ausbushes/reedbush,
 /turf/simulated/wall/indestructible/rock,
 /area/planetoid)
-"xah" = (
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/grass/sandcorner2/east,
-/area/planetoid/caves/east_rnd_cave)
 "xaq" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -97662,6 +97708,10 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/service/chapel)
+"xda" = (
+/obj/structure/flora/rock/basalt2,
+/turf/simulated/floor/planetoid/desert/desert,
+/area/planetoid/caves/east_rnd_cave)
 "xdh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -98460,6 +98510,9 @@
 /area/planetoid/lazarus/service/kitchen)
 "xmy" = (
 /obj/effect/landmark/start/captain,
+/obj/structure/safe/floor{
+	known_by = list("captain")
+	},
 /turf/simulated/floor/carpet/royalblue,
 /area/planetoid/lazarus/command/office/captain/bedroom)
 "xmJ" = (
@@ -99646,6 +99699,9 @@
 /area/planetoid/lazarus/service/mime)
 "xBa" = (
 /obj/machinery/power/apc/directional/west,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -100294,6 +100350,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -100306,15 +100365,6 @@
 	icon_state = "dark"
 	},
 /area/planetoid/lazarus/science/hallway/arrivals)
-"xJC" = (
-/obj/machinery/atmospherics/pipe/simple/visible/cyan{
-	desc = "Труба содержит дыхательную смесь для подачи на станцию";
-	dir = 1;
-	name = "Труба дыхательной смеси"
-	},
-/obj/structure/flora/rock/pile,
-/turf/simulated/floor/planetoid/desert/desert,
-/area/planetoid/caves/north_eng_cave)
 "xJD" = (
 /obj/structure/chair/stool{
 	dir = 4
@@ -100372,6 +100422,10 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/planetoid/grass/sandcorner/east,
 /area/planetoid)
+"xKj" = (
+/obj/structure/flora/rock/pile,
+/turf/simulated/floor/planetoid/grass/sandcorner2/east,
+/area/planetoid/caves/east_rnd_cave)
 "xKk" = (
 /obj/machinery/atmospherics/unary/thermomachine/heater{
 	dir = 1;
@@ -108822,7 +108876,7 @@ cLB
 pIL
 dvr
 dvr
-crF
+fQN
 uGq
 cNA
 rsX
@@ -109862,7 +109916,7 @@ qVb
 qVb
 qVb
 qVb
-fpT
+crF
 qVb
 qVb
 rde
@@ -110114,7 +110168,7 @@ cbF
 jEp
 qVb
 qVb
-fpT
+crF
 qVb
 miq
 hpL
@@ -110892,7 +110946,7 @@ cLB
 cLw
 cLB
 pIL
-fpT
+crF
 qVb
 rde
 eul
@@ -111373,7 +111427,7 @@ kPc
 qRA
 kPc
 kPc
-afN
+jee
 kPc
 dvr
 kAk
@@ -111625,7 +111679,7 @@ qRA
 qRA
 dct
 nzZ
-afN
+jee
 qRA
 qRA
 qRA
@@ -112154,7 +112208,7 @@ eul
 nVf
 eul
 bKJ
-crF
+fQN
 dvr
 dvr
 qVb
@@ -112703,7 +112757,7 @@ cLB
 cLB
 gao
 emB
-fpT
+crF
 ahG
 dhR
 dhR
@@ -113422,12 +113476,12 @@ kPc
 kPc
 kPc
 kPc
-afN
+jee
 kPc
 qRA
 qRA
 kPc
-afN
+jee
 vWT
 vdL
 qRA
@@ -113973,7 +114027,7 @@ gCs
 qVb
 hTC
 aoS
-fpT
+crF
 vWv
 cLB
 cLB
@@ -114715,7 +114769,7 @@ xEJ
 xEJ
 fni
 kPc
-afN
+jee
 qRA
 lZy
 dgE
@@ -115209,7 +115263,7 @@ kPc
 kPc
 kPc
 kPc
-ujV
+ddT
 qRA
 qRA
 qRA
@@ -115253,7 +115307,7 @@ cLB
 cLB
 cLB
 pIL
-fpT
+crF
 rde
 obP
 obP
@@ -115266,7 +115320,7 @@ aoS
 qVb
 qVb
 qVb
-fpT
+crF
 qVb
 qVb
 qVb
@@ -115451,7 +115505,7 @@ aCK
 oQt
 fXJ
 wAd
-hVN
+nts
 cDf
 cDf
 cDf
@@ -115464,7 +115518,7 @@ qRA
 lRD
 kPc
 kPc
-afN
+jee
 kPc
 kPc
 qRA
@@ -115715,7 +115769,7 @@ ioJ
 tJh
 dTF
 dTF
-nsb
+oTY
 iGz
 cDf
 cDf
@@ -115759,7 +115813,7 @@ cLB
 cLB
 gao
 emB
-eWc
+soG
 gKp
 cLB
 cLB
@@ -116009,7 +116063,7 @@ bJM
 aUp
 dvr
 dvr
-crF
+fQN
 qVb
 vWv
 cLw
@@ -116722,7 +116776,7 @@ qRA
 qRA
 sYI
 bbA
-nsb
+oTY
 dTF
 xTS
 qRA
@@ -116734,7 +116788,7 @@ qRA
 qRA
 qRA
 dTF
-nsb
+oTY
 dpp
 dpp
 dpp
@@ -116752,7 +116806,7 @@ qRA
 qRA
 qRA
 kPc
-cmr
+fAA
 sVL
 sVL
 asf
@@ -116772,7 +116826,7 @@ xEJ
 qRA
 qRA
 sIf
-lBD
+bDL
 hpL
 emB
 qVb
@@ -117035,7 +117089,7 @@ gao
 emB
 qVb
 qVb
-fpT
+crF
 gCs
 qVb
 miq
@@ -117511,7 +117565,7 @@ foL
 foL
 mrF
 fKt
-oZR
+jKY
 nBa
 ydd
 huN
@@ -117527,7 +117581,7 @@ cmC
 qRA
 qRA
 yaz
-afN
+jee
 qRA
 qRA
 xEJ
@@ -118076,7 +118130,7 @@ cLB
 cLB
 pIL
 qVb
-fpT
+crF
 rde
 aZH
 pIU
@@ -118149,7 +118203,7 @@ dlO
 dxs
 gLa
 wLR
-tIg
+gvq
 cZu
 eul
 eul
@@ -118275,7 +118329,7 @@ dTF
 dTF
 dTF
 dTF
-nsb
+oTY
 dpp
 ioY
 tTx
@@ -118566,7 +118620,7 @@ vPp
 cFG
 sYE
 sYE
-eHw
+ttQ
 crs
 qVb
 gZA
@@ -118816,7 +118870,7 @@ eBH
 mIk
 kPc
 kPc
-afN
+jee
 kPc
 qRA
 osQ
@@ -119036,7 +119090,7 @@ qRA
 qRA
 qRA
 qRA
-nsb
+oTY
 dTF
 dTF
 qRA
@@ -119557,7 +119611,7 @@ qRA
 qRA
 qRA
 qRA
-nsb
+oTY
 dTF
 dTF
 dpp
@@ -119607,7 +119661,7 @@ aoS
 sVM
 qVb
 qVb
-fpT
+crF
 muh
 cLB
 cLB
@@ -119860,7 +119914,7 @@ qRA
 qRA
 qRA
 qRA
-mHC
+piP
 cNO
 qVb
 qVb
@@ -120065,7 +120119,7 @@ qRA
 qRA
 qRA
 dTF
-wij
+csf
 qRA
 qRA
 qRA
@@ -120118,7 +120172,7 @@ qRA
 qRA
 qRA
 qRA
-vxx
+gxD
 qVb
 qVb
 qVb
@@ -120633,7 +120687,7 @@ aZH
 rAw
 qVb
 sVM
-fpT
+crF
 qVb
 qVb
 qVb
@@ -121465,8 +121519,8 @@ xAQ
 vho
 sOK
 xBa
-sOK
-sOK
+bEd
+iOa
 iLd
 neL
 rOY
@@ -121607,14 +121661,14 @@ qRA
 qRA
 qRA
 dTF
-nsb
+oTY
 qRA
 qRA
 qRA
 qRA
 qRA
 dTF
-nsb
+oTY
 dTF
 dTF
 dTF
@@ -121663,7 +121717,7 @@ jBx
 sVM
 qVb
 qVb
-fpT
+crF
 qVb
 muh
 ygp
@@ -121980,7 +122034,7 @@ vBZ
 gia
 sOK
 gia
-sOK
+kXJ
 vmZ
 geZ
 uYB
@@ -122136,7 +122190,7 @@ oTD
 ghF
 gjB
 qCe
-xJC
+lso
 vko
 vSz
 xhC
@@ -122237,7 +122291,7 @@ gia
 uco
 gia
 uco
-gia
+ajw
 kHf
 geZ
 tSG
@@ -122408,7 +122462,7 @@ lgO
 ixQ
 dpp
 dTF
-nsb
+oTY
 nkV
 dmY
 osx
@@ -122494,7 +122548,7 @@ jGt
 jZU
 rPv
 jZU
-sOK
+kXJ
 nGO
 gXy
 geZ
@@ -122891,7 +122945,7 @@ qRA
 qRA
 qRA
 qRA
-nsb
+oTY
 dTF
 dTF
 qRA
@@ -123276,7 +123330,7 @@ doq
 hJA
 fPD
 bkg
-rCy
+btV
 xhV
 sVz
 vnc
@@ -123551,7 +123605,7 @@ tLd
 xhV
 kHK
 utZ
-apm
+dCh
 okD
 mzh
 aQO
@@ -123973,7 +124027,7 @@ xTu
 brV
 qeE
 hpf
-crF
+fQN
 dvr
 puw
 fGa
@@ -124719,7 +124773,7 @@ dpp
 hQG
 eXs
 dTF
-nsb
+oTY
 dTF
 qRA
 qRA
@@ -125272,7 +125326,7 @@ pEU
 pEU
 rXS
 fGa
-mSr
+lSx
 fGa
 cWu
 qvV
@@ -125468,7 +125522,7 @@ qRA
 qRA
 qRA
 qRA
-nsb
+oTY
 dTF
 dTF
 dTF
@@ -125478,7 +125532,7 @@ dTF
 dTF
 dTF
 dTF
-nsb
+oTY
 dTF
 dTF
 dTF
@@ -125514,10 +125568,10 @@ dvr
 dvr
 dvr
 dvr
-crF
+fQN
 dvr
 dvr
-jqi
+lEH
 fGa
 ukK
 pLH
@@ -125729,7 +125783,7 @@ qRA
 dTF
 dTF
 dTF
-kwS
+rfD
 dTF
 dTF
 dTF
@@ -125978,7 +126032,7 @@ qRA
 qRA
 lRD
 dTF
-nsb
+oTY
 dTF
 dTF
 qRA
@@ -125990,7 +126044,7 @@ ehJ
 dTF
 dTF
 dTF
-nsb
+oTY
 qRA
 fnE
 uLy
@@ -126281,7 +126335,7 @@ gHC
 wio
 xUV
 dvr
-crF
+fQN
 dvr
 lTu
 lTu
@@ -126513,7 +126567,7 @@ qRA
 qRA
 rLW
 dTF
-nsb
+oTY
 dTF
 dTF
 qRA
@@ -127010,7 +127064,7 @@ qRA
 qRA
 dTF
 dTF
-nsb
+oTY
 qRA
 qRA
 qRA
@@ -127386,7 +127440,7 @@ nKk
 xRj
 gVY
 gjl
-kEh
+tjJ
 hkC
 aVN
 jkg
@@ -127572,7 +127626,7 @@ jvt
 lxl
 fGa
 fGa
-mSr
+lSx
 fGa
 ukK
 pEU
@@ -128047,7 +128101,7 @@ qRA
 qRA
 qsh
 vYh
-bkx
+iyV
 lBH
 qRA
 qRA
@@ -128292,7 +128346,7 @@ qRA
 qRA
 qRA
 wLg
-khu
+wSB
 wLg
 qRA
 qRA
@@ -128613,7 +128667,7 @@ pEU
 pEU
 pEU
 rXS
-mSr
+lSx
 kVq
 tTz
 fzK
@@ -129130,7 +129184,7 @@ jQy
 lxl
 fGa
 fGa
-mSr
+lSx
 xLj
 eul
 eul
@@ -129590,7 +129644,7 @@ qRA
 aWM
 wAn
 lBH
-bkx
+iyV
 jpR
 lBH
 qRA
@@ -129605,14 +129659,14 @@ qRA
 qRA
 qRA
 lBH
-gcC
+tOi
 lBH
 lBH
 bWF
 qRA
 lBH
 lBH
-bkx
+iyV
 lBH
 lBH
 lBH
@@ -129627,7 +129681,7 @@ hBA
 hMu
 fGa
 fGa
-mSr
+lSx
 fGa
 fGa
 fGa
@@ -129832,7 +129886,7 @@ xIc
 xIc
 rVn
 qhm
-khu
+wSB
 pMI
 xIc
 qZk
@@ -130118,7 +130172,7 @@ qRA
 qRA
 lBH
 lBH
-bkx
+iyV
 lBH
 lBH
 qRA
@@ -130137,7 +130191,7 @@ bVm
 aZa
 aZa
 oLr
-crF
+fQN
 aZa
 hQb
 dvr
@@ -130624,7 +130678,7 @@ jpR
 rkN
 lBH
 lBH
-bkx
+iyV
 qRA
 qRA
 qRA
@@ -131145,7 +131199,7 @@ lBH
 lBH
 lBH
 lBH
-bkx
+iyV
 lBH
 lBH
 qRA
@@ -131888,7 +131942,7 @@ jPR
 wLg
 wLg
 wLg
-khu
+wSB
 lmK
 gaI
 imN
@@ -132413,7 +132467,7 @@ wLg
 wLg
 wLg
 lBH
-bkx
+iyV
 lBH
 qRA
 qRA
@@ -132665,7 +132719,7 @@ gaI
 gaI
 gaI
 imN
-khu
+wSB
 wLg
 qpK
 wLg
@@ -133471,7 +133525,7 @@ qWJ
 uwT
 rlv
 dvr
-crF
+fQN
 nUV
 hzP
 bVm
@@ -133684,7 +133738,7 @@ ePd
 mlS
 jOd
 wLg
-khu
+wSB
 wLg
 lmK
 gaI
@@ -133753,7 +133807,7 @@ pEU
 pEU
 pEU
 rXS
-mSr
+lSx
 oZU
 ifo
 oqX
@@ -133990,7 +134044,7 @@ nUV
 hzP
 bVm
 cvA
-crF
+fQN
 qzD
 dvr
 gIK
@@ -134971,7 +135025,7 @@ yiw
 rVn
 qhm
 wLg
-khu
+wSB
 wLg
 wLg
 dqG
@@ -135760,7 +135814,7 @@ qRA
 qRA
 qRA
 lBH
-bkx
+iyV
 lBH
 qRA
 qRA
@@ -135806,7 +135860,7 @@ pEU
 pEU
 pEU
 rXS
-mSr
+lSx
 jAb
 fNH
 qbw
@@ -136822,7 +136876,7 @@ dvr
 dvr
 dvr
 dvr
-crF
+fQN
 fGa
 fGa
 fGa
@@ -137036,7 +137090,7 @@ qRA
 qRA
 qRA
 ucv
-bkx
+iyV
 lBH
 lBH
 lBH
@@ -137074,7 +137128,7 @@ whO
 nTB
 hzP
 dvr
-crF
+fQN
 dvr
 dvr
 dvr
@@ -137296,10 +137350,10 @@ lBH
 lBH
 jpR
 fmo
-fJQ
+rku
 lBH
 lBH
-bkx
+iyV
 lBH
 asv
 asv
@@ -137537,7 +137591,7 @@ qRA
 qRA
 qRA
 vVM
-bkx
+iyV
 lBH
 lBH
 lBH
@@ -137563,7 +137617,7 @@ asv
 rVI
 vcL
 wAn
-bkx
+iyV
 lBH
 lBH
 uXE
@@ -137609,7 +137663,7 @@ pEU
 jQy
 lxl
 fGa
-mSr
+lSx
 aqe
 qvV
 kpe
@@ -138313,7 +138367,7 @@ qRA
 lBH
 lBH
 lBH
-bkx
+iyV
 lBH
 lBH
 lBH
@@ -139649,7 +139703,7 @@ dvr
 qjc
 dvr
 dvr
-crF
+fQN
 dvr
 uYu
 lIH
@@ -140111,7 +140165,7 @@ qRA
 qRA
 qRA
 qRA
-iyQ
+mzd
 sHJ
 sHJ
 sHJ
@@ -140289,14 +140343,14 @@ xKK
 rWE
 rWE
 rWE
-tXx
+lcz
 rWE
 rWE
 rWE
 rWE
 rWE
 rWE
-tXx
+lcz
 rWE
 rWE
 rWE
@@ -140691,7 +140745,7 @@ pEU
 bFi
 rXS
 fGa
-mSr
+lSx
 fGa
 vOx
 kpe
@@ -141270,7 +141324,7 @@ hBb
 cil
 iBh
 abx
-oTY
+vYQ
 kis
 cLn
 kaj
@@ -141527,7 +141581,7 @@ hBb
 cil
 iBh
 abx
-jee
+vYQ
 kis
 cLn
 iUx
@@ -141570,7 +141624,7 @@ dDk
 dDk
 eFX
 dtu
-drs
+fZv
 dgE
 dgE
 dgE
@@ -141585,7 +141639,7 @@ dgE
 dgE
 dgE
 dgE
-vjY
+jJB
 dtu
 jhs
 dDk
@@ -141706,7 +141760,7 @@ tGW
 iiB
 tGW
 dvr
-mSr
+lSx
 fGa
 tTk
 gRs
@@ -141784,7 +141838,7 @@ hBb
 cil
 iBh
 abx
-lSx
+vYQ
 lAi
 ioC
 lhV
@@ -141975,7 +142029,7 @@ pEU
 jQy
 lxl
 fGa
-mSr
+lSx
 wYB
 kuW
 sAv
@@ -142423,10 +142477,10 @@ qRA
 qRA
 qRA
 qRA
-iyQ
+mzd
 sHJ
 sHJ
-rai
+jdm
 jIw
 sHJ
 sHJ
@@ -143369,7 +143423,7 @@ dDk
 dDk
 jhs
 dtu
-drs
+fZv
 dgE
 dgE
 dgE
@@ -143384,7 +143438,7 @@ dgE
 dgE
 dgE
 dgE
-vjY
+jJB
 dtu
 tqt
 qkx
@@ -143707,7 +143761,7 @@ qRA
 qRA
 qRA
 qRA
-iyQ
+mzd
 sHJ
 sHJ
 sHJ
@@ -144020,7 +144074,7 @@ vgD
 vGC
 ted
 fGa
-mSr
+lSx
 ukK
 pEU
 pEU
@@ -144804,7 +144858,7 @@ pEU
 pEU
 pEU
 rXS
-mSr
+lSx
 aqe
 sAv
 eul
@@ -145761,7 +145815,7 @@ qRA
 qRA
 qRA
 qRA
-iyQ
+mzd
 sHJ
 sHJ
 uNV
@@ -147633,7 +147687,7 @@ wyv
 ctJ
 eyp
 vdn
-wSB
+lTW
 eOF
 wLS
 gpL
@@ -148389,7 +148443,7 @@ eSu
 eSu
 eSu
 vdn
-wSB
+lTW
 vdn
 fQt
 sKP
@@ -148595,7 +148649,7 @@ qRA
 qRA
 qRA
 sHJ
-iyQ
+mzd
 sHJ
 qRA
 qRA
@@ -148739,7 +148793,7 @@ enB
 enB
 enB
 enB
-gvq
+enB
 enB
 aGM
 xbe
@@ -149173,7 +149227,7 @@ wyv
 wyv
 wyv
 mxm
-wSB
+lTW
 vdn
 slH
 rgS
@@ -149930,7 +149984,7 @@ bbs
 lTD
 vFC
 vdn
-wSB
+lTW
 kCB
 jAV
 wyv
@@ -150143,7 +150197,7 @@ qRA
 qRA
 qwv
 sHJ
-iyQ
+mzd
 sHJ
 vDt
 dKB
@@ -151486,7 +151540,7 @@ wyv
 wyv
 wyv
 mxm
-wSB
+lTW
 enN
 xsD
 kKD
@@ -151930,7 +151984,7 @@ bPL
 bPL
 dLb
 sHJ
-sig
+pXb
 sHJ
 sHJ
 sHJ
@@ -152200,7 +152254,7 @@ qRA
 qRA
 xLR
 xLR
-dpy
+hhw
 hcF
 dKB
 oxT
@@ -152499,7 +152553,7 @@ eqd
 cWg
 sKT
 nmf
-wSB
+lTW
 vdn
 kCB
 jAV
@@ -153230,7 +153284,7 @@ qRA
 tNa
 puD
 lKv
-xah
+xKj
 xLR
 xLR
 qRA
@@ -154297,7 +154351,7 @@ nqU
 dvr
 dvr
 vdn
-wSB
+lTW
 vdn
 vdn
 vdn
@@ -155599,7 +155653,7 @@ wyv
 hzj
 oQp
 eyp
-wSB
+lTW
 ycS
 hdJ
 ubJ
@@ -156093,7 +156147,7 @@ xLR
 xLR
 xLR
 dvr
-crF
+fQN
 dvr
 dvr
 vdn
@@ -156853,7 +156907,7 @@ qRA
 wmL
 wmL
 bUE
-inP
+pIg
 itx
 wmL
 lKC
@@ -156871,7 +156925,7 @@ qRA
 qRA
 dvr
 dvr
-wSB
+lTW
 vdn
 vdn
 kCB
@@ -158151,7 +158205,7 @@ wYF
 dvr
 dvr
 dvr
-crF
+fQN
 dvr
 qRA
 qZk
@@ -158675,7 +158729,7 @@ qRA
 dvr
 vdn
 vdn
-wSB
+lTW
 vdn
 vdn
 vdn
@@ -158955,7 +159009,7 @@ qUJ
 qUJ
 wDJ
 hYZ
-uoS
+vOa
 enN
 qbp
 qvV
@@ -159955,14 +160009,14 @@ qZk
 xCi
 gpL
 dvr
-crF
+fQN
 dvr
 dvr
 dvr
 dvr
 dvr
 dvr
-wSB
+lTW
 vdn
 vdn
 vdn
@@ -161469,7 +161523,7 @@ qRA
 qRA
 qRA
 qRA
-qBI
+xda
 xLR
 xLR
 cQA
@@ -161510,7 +161564,7 @@ uKp
 xCi
 gpL
 dvr
-wSB
+lTW
 vdn
 kCB
 qLt
@@ -162029,7 +162083,7 @@ vdn
 vdn
 vdn
 vdn
-wSB
+lTW
 vdn
 mSz
 kCB
@@ -163313,7 +163367,7 @@ kmC
 kVp
 mGe
 vdn
-wSB
+lTW
 vdn
 vdn
 vdn
@@ -163330,7 +163384,7 @@ aPH
 mSz
 vdn
 vdn
-wSB
+lTW
 vdn
 enN
 qbp
@@ -163574,14 +163628,14 @@ dvr
 vdn
 vdn
 vdn
-wSB
+lTW
 vdn
 vdn
 vdn
 vdn
 mSz
 vdn
-wSB
+lTW
 vdn
 vdn
 vdn
@@ -163834,7 +163888,7 @@ uCA
 uCA
 uCA
 uCA
-tAC
+axD
 vdn
 vdn
 vdn
@@ -163846,7 +163900,7 @@ vdn
 hYp
 oUW
 oUW
-vHY
+gcC
 qbp
 xsD
 qvV
@@ -164086,12 +164140,12 @@ qvV
 kpe
 svJ
 qbp
-tpt
+ssA
 qbp
 qbp
 qbp
-jXu
-eYe
+tjx
+mSr
 nqX
 uCA
 uCA
